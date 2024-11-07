@@ -212,7 +212,7 @@ class RDFanalysis():
 
                 .Define("Tau_DR",       "FCCAnalyses::ZHfunctions::deltaR(TauLead_phi, TauSub_phi, TauLead_eta, TauSub_eta)")
                 .Define("Tau_scalar",      "(TauLead_px*TauSub_px + TauLead_py*TauSub_py + TauLead_pz*TauSub_pz)")
-                .Define("Tau_cos",      "RecoH_p/Tau_scalar")
+                .Define("Tau_cos",      "Tau_scalar/(TauLead_p*TauSub_p)")
                 .Define("Tau_DEta",    "(TauLead_eta - TauSub_eta)")
                 .Define("Tau_DPhi",    "(TauLead_phi - TauSub_phi)")
 
@@ -228,7 +228,7 @@ class RDFanalysis():
 
                 .Define("Visible_mass",     "return RecoH_mass;")
 
-                .Filter("RecoEmiss_e>100")
+                #.Filter("RecoEmiss_e>100")
 
         )
         return df2

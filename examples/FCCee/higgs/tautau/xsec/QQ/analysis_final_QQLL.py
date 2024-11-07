@@ -1,8 +1,8 @@
 #Input directory where the files produced at the stage1 level are
-inputDir = "/ceph/awiedl/FCCee/HiggsCP/stage2/QQ/LL/"
+inputDir = "/ceph/awiedl/FCCee/HiggsCP/stage2_v2/QQ/LL/"
 
 #Optional: output directory, default is local running directory
-outputDir   = "/ceph/awiedl/FCCee/HiggsCP/final/QQ/LL/" 
+outputDir   = "/ceph/awiedl/FCCee/HiggsCP/final_v2/QQ/LL/" 
 
 #Integrated luminosity for scaling number of events (required only if setting doScale to true)
 intLumi = 10.8e6 #pb^-1 #to be checked again for 240 gev
@@ -124,8 +124,8 @@ cutList = {
     "selReco_100Coll150_115Rec160_10Me": "Collinear_mass>100 && Collinear_mass<150 && Recoil>115 && Recoil<160 && RecoEmiss_e>10",
     "selReco_100Coll150_115Rec160_10Me_80Z95": "Collinear_mass>100 && Collinear_mass<150 && Recoil>115 && Recoil<160 && RecoEmiss_e>10 && RecoZ_mass>80 &&RecoZ_mass<95",
     "selReco_100Coll150_115Rec160_10Me_80Z95_2DR": "Collinear_mass>100 && Collinear_mass<150 && Recoil>115 && Recoil<160 && RecoEmiss_e>10 && RecoZ_mass>80 &&RecoZ_mass<95 && Tau_DR>2",
-    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0": "Collinear_mass>100 && Collinear_mass<150 && Recoil>115 && Recoil<160 && RecoEmiss_e>10 && RecoZ_mass>80 &&RecoZ_mass<95 && Tau_DR>2 && Tau_cos<0",
-    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0_misscos0.98": "Collinear_mass>100 && Collinear_mass<150 && Recoil>115 && Recoil<160 && RecoEmiss_e>10 && RecoZ_mass>80 &&RecoZ_mass<95 && Tau_DR>2 && Tau_cos<0 && RecoEmiss_costheta<0.98",
+    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0.6": "Collinear_mass>100 && Collinear_mass<150 && Recoil>115 && Recoil<160 && RecoEmiss_e>10 && RecoZ_mass>80 &&RecoZ_mass<95 && Tau_DR>2 && Tau_cos<-0.6",
+    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0.6_misscos0.98": "Collinear_mass>100 && Collinear_mass<150 && Recoil>115 && Recoil<160 && RecoEmiss_e>10 && RecoZ_mass>80 &&RecoZ_mass<95 && Tau_DR>2 && Tau_cos<-0.6 && RecoEmiss_costheta<0.98",
     
 }
 
@@ -138,8 +138,8 @@ cutLabels = {
     "selReco_100Coll150_115Rec160_10Me": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV",
     "selReco_100Coll150_115Rec160_10Me_80Z95": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV",
     "selReco_100Coll150_115Rec160_10Me_80Z95_2DR": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV, #Delta R_{#tau}>2",
-    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV, #Delta R_{#tau}>2, cos#theta_{#tau}<0",
-    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0_misscos0.98": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV, #Delta R_{#tau}>2, cos#theta_{#tau}<0, |cos#theta_{miss}|<0.98",
+    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0.6": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV, #Delta R_{#tau}>2, cos#theta_{#tau}<0",
+    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0.6_misscos0.98": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV, #Delta R_{#tau}>2, cos#theta_{#tau}<0, |cos#theta_{miss}|<0.98",
 
 }
 
