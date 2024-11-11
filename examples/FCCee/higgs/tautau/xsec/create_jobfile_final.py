@@ -82,10 +82,10 @@ def create_subjob_script(local_dir: str,
              
 
 #inputDir = '/ceph/sgiappic/HiggsCP/winter23/'
-inputDir = '/ceph/awiedl/FCCee/HiggsCP/s/'
-output = '/work/sgiappic/HTCondor/final/' ##output directory of submission files
+inputDir = '/ceph/awiedl/FCCee/HiggsCP/stage3_v2_cut/'
+output = '/work/sgiappic/HTCondor/final_v2_cut/' ##output directory of submission files
 outputDir_path = '/ceph/awiedl/FCCee/HiggsCP/final/' ##output directory of stage2 samples
-localDir_path = '/ceph/sgiappic/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/'
+localDir_path = '/ceph/sgiappic/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/BDT/'
 sourceDir = '/ceph/sgiappic/FCCAnalyses/'
 Filename_path = 'analysis_final_'
 SUBDIR = [
@@ -95,14 +95,17 @@ SUBDIR = [
 ]
 CAT = [
     "QQ",
-    "LL",
+    #"LL",
     "NuNu",
 ]
 nCPUS = 4
 Memory = 10000
 for cat in CAT:
     for sub in SUBDIR:
-        localDir = localDir_path + cat + "/"
+        if "BDT" in localDir_path:
+            localDir = localDir_path
+        else:
+            localDir = localDir_path + cat + "/"
         outputDir = outputDir_path + cat + "/" + sub + "/"
         Filename = Filename_path + cat + sub + ".py"
         create_subjob_script(localDir, sourceDir, inputDir, cat, sub, output, outputDir, Filename)

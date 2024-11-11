@@ -98,7 +98,7 @@ def create_subjob_script(local_dir: str,
     print("done")
              
 
-processList_ = {
+processList = {
     'p8_ee_WW_ecm240':{'chunks':100},
     'p8_ee_Zqq_ecm240':{'chunks':100},
     'p8_ee_ZZ_ecm240':{'chunks':100},
@@ -184,12 +184,12 @@ processList_ = {
 }
 
 #inputDir = '/ceph/sgiappic/HiggsCP/winter23/'
-inputDir_path = '/ceph/awiedl/FCCee/HiggsCP/stage1/'
-output = '/work/sgiappic/HTCondor/stage2_v2/' ##output directory of submission files, needs to be different to have unique submission files
-outputDir_path = '/ceph/awiedl/FCCee/HiggsCP/stage2_v2/' ##output directory of stage2 samples
-localDir_path = '/ceph/sgiappic/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/'
+inputDir_path = '/ceph/awiedl/FCCee/HiggsCP/stage2_v2_cut/'
+output = '/work/sgiappic/HTCondor/stage3_v2_cut/' ##output directory of submission files, needs to be different to have unique submission files
+outputDir_path = '/ceph/awiedl/FCCee/HiggsCP/stage3_v2_cut_new/' ##output directory of stage2 samples
+localDir_path = '/ceph/sgiappic/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/BDT/'
 sourceDir = '/ceph/sgiappic/FCCAnalyses/'
-Filename_path = 'analysis_stage2_'
+Filename_path = 'analysis_stage3_'
 SUBDIR = [
     'LL',
     'LH',
@@ -197,7 +197,7 @@ SUBDIR = [
 ]
 CAT = [
     "QQ",
-    "LL",
+    #"LL",
     "NuNu",
 ]
 nCPUS = 4

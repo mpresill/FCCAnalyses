@@ -1,5 +1,5 @@
 #Input directory where the files produced at the stage1 level are
-inputDir = "/ceph/awiedl/FCCee/HiggsCP/stage2/NuNu/LL/"
+inputDir = "/ceph/awiedl/FCCee/HiggsCP/stage2_v2/NuNu/LL/"
 
 #Optional: output directory, default is local running directory
 outputDir   = "/ceph/awiedl/FCCee/HiggsCP/final_v2/NuNu/LL/" 

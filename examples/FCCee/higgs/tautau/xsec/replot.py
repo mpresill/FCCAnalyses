@@ -33,9 +33,9 @@ def file_exists(file_path):
 
 # directory with final stage files
 DIRECTORY = {
-    'LL':"/ceph/awiedl/FCCee/HiggsCP/final/LL",
-    'QQ':"/ceph/awiedl/FCCee/HiggsCP/final_100Coll150/QQ",
-    'NuNu':"/ceph/awiedl/FCCee/HiggsCP/final_100Me/NuNu",
+    'LL':"/ceph/awiedl/FCCee/HiggsCP/final_v2/LL",
+    'QQ':"/ceph/awiedl/FCCee/HiggsCP/final_241025_cut_bdt/QQ",
+    'NuNu':"/ceph/awiedl/FCCee/HiggsCP/final_v2/NuNu",
 }
 SUBDIR = [
     'LL',
@@ -49,7 +49,7 @@ CAT = [
     "NuNu",
 ]
 #directory where you want your plots to go
-DIR_PLOTS = '/web/sgiappic/public_html/Higgs_xsec/BDT/' 
+DIR_PLOTS = '/web/sgiappic/public_html/Higgs_xsec/v2' 
 #list of cuts you want to plot
 CUTS_LL = [
     "selReco",
@@ -58,8 +58,8 @@ CUTS_LL = [
     "selReco_100Coll150_115Rec160_10Me",
     "selReco_100Coll150_115Rec160_10Me_70Z100",
     "selReco_100Coll150_115Rec160_10Me_70Z100_2DR",
-    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0",
-    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0_misscos0.98",
+    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0.6",
+    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0.6_misscos0.98",
 ]
 
 CUTS_QQ = [
@@ -79,16 +79,16 @@ CUTS_QQ = [
     
 CUTS_NuNu = [
     "selReco",
-    #"selReco_100Me",
-    #"selReco_100Me_TauDPhi3",
-    #"selReco_100Me_TauDPhi3_2DR",
-    #"selReco_100Me_TauDPhi3_2DR_cos0",
-    #"selReco_100Me_TauDPhi3_2DR_cos0_misscos0.98",
-    #"selReco_100Me_TauDPhi3_2DR_cos0_misscos0.98_missy1",
+    "selReco_100Me",
+    "selReco_100Me_TauDPhi3",
+    "selReco_100Me_TauDPhi3_2DR",
+    "selReco_100Me_TauDPhi3_2DR_cos0.4",
+    "selReco_100Me_TauDPhi3_2DR_cos0.4_misscos0.98",
+    "selReco_100Me_TauDPhi3_2DR_cos0.4_misscos0.98_missy1",
 
-    "selReco_0.5BDT",
-    "selReco_0.6BDT",
-    "selReco_0.7BDT",
+    #"selReco_0.5BDT",
+    #"selReco_0.6BDT",
+    #"selReco_0.7BDT",
 ]
 
 CUTS = {
@@ -107,14 +107,14 @@ LABELS = {
     #cuts for LL
     "selReco_100Coll150_115Rec160_10Me_70Z100": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 70<M_{Z}<110 GeV",
     "selReco_100Coll150_115Rec160_10Me_70Z100_2DR": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 70<M_{Z}<110 GeV, #Delta R_{#tau}>2",
-    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 70<M_{Z}<110 GeV,}{#Delta R_{#tau}>2, cos#theta_{#tau}<0}",
-    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0_misscos0.98": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 70<M_{Z}<110 GeV,}{#Delta R_{#tau}>2, cos#theta_{#tau}<0, |cos#theta_{miss}|<0.98}",
+    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0.6": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 70<M_{Z}<110 GeV,}{#Delta R_{#tau}>2, cos#theta_{#tau}<-0.6}",
+    "selReco_100Coll150_115Rec160_10Me_70Z100_2DR_cos0.6_misscos0.98": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 70<M_{Z}<110 GeV,}{#Delta R_{#tau}>2, cos#theta_{#tau}<-0.6, |cos#theta_{miss}|<0.98}",
 
     #cuts for QQ
     "selReco_100Coll150_115Rec160_10Me_80Z95": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV",
     "selReco_100Coll150_115Rec160_10Me_80Z95_2DR": "100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV, #Delta R_{#tau}>2",
-    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV,}{#Delta R_{#tau}>2, cos#theta_{#tau}<0}",
-    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0_misscos0.98": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV,}{80<M_{Z}<95 GeV, #Delta R_{#tau}>2, cos#theta_{#tau}<0, |cos#theta_{miss}|<0.98}",
+    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0.6": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV, 80<M_{Z}<95 GeV,}{#Delta R_{#tau}>2, cos#theta_{#tau}<-0.6}",
+    "selReco_100Coll150_115Rec160_10Me_80Z95_2DR_cos0.6_misscos0.98": "#splitline{100<M_{collinear}<150 GeV, 115<M_{recoil}<160 GeV, E_{miss}>10 GeV,}{80<M_{Z}<95 GeV, #Delta R_{#tau}>2, cos#theta_{#tau}<-0.6, |cos#theta_{miss}|<0.98}",
     
     #"selReco_0.5BDT":"100<M_{collinear}<150 GeV, BDT score>0.5",
     #"selReco_0.6BDT":"100<M_{collinear}<150 GeV, BDT score>0.6",
@@ -124,9 +124,9 @@ LABELS = {
     "selReco_100Me": "E_{miss}>100 GeV",
     "selReco_100Me_TauDPhi3": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3",
     "selReco_100Me_TauDPhi3_2DR": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3, #Delta R_{#tau}>2",
-    "selReco_100Me_TauDPhi3_2DR_cos0": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3, #Delta R_{#tau}>2, cos#theta_{#tau}<0",
-    "selReco_100Me_TauDPhi3_2DR_cos0_misscos0.98": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3, #Delta R_{#tau}>2, cos#theta_{#tau}<0, |cos#theta_{miss}|<0.98",
-    "selReco_100Me_TauDPhi3_2DR_cos0_misscos0.98_missy1": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3, #Delta R_{#tau}>2, cos#theta_{#tau}<0, |cos#theta_{miss}|<0.98, |y_{miss}|<1",
+    "selReco_100Me_TauDPhi3_2DR_cos0.4": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3, #Delta R_{#tau}>2, cos#theta_{#tau}<-0.4",
+    "selReco_100Me_TauDPhi3_2DR_cos0.4_misscos0.98": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3, #Delta R_{#tau}>2, cos#theta_{#tau}<-0.4, |cos#theta_{miss}|<0.98",
+    "selReco_100Me_TauDPhi3_2DR_cos0.4_misscos0.98_missy1": "E_{miss}>100 GeV, |#Delta#phi_{#tau}|<3, #Delta R_{#tau}>2, cos#theta_{#tau}<-0.4, |cos#theta_{miss}|<0.98, |y_{miss}|<1",
 
     "selReco_0.5BDT":"E_{miss}>100 GeV, BDT score>0.5",
     "selReco_0.6BDT":"E_{miss}>100 GeV, BDT score>0.6",
@@ -149,7 +149,7 @@ ana_tex_sub = {
 energy         = 240
 collider       = 'FCC-ee'
 intLumi        = 10.8 #ab-1
-LOGY = False
+LOGY = True
 
 #now you can list all the histograms that you want to plot
 VARIABLES_ALL = [
@@ -1180,7 +1180,7 @@ VARIABLES_NuNu = [
     #"Collinear_mass",
     "Visible_mass",
 
-    "BDT_score",
+    #"BDT_score",
 ]
 
 #list of backgorunds, then legend and colors to be assigned to them
