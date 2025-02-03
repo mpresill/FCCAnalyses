@@ -54,7 +54,7 @@ os.system("source /cvmfs/cms.cern.ch/cmsset_default.sh")
 os.system("cd /work/xzuo/combine_test/CMSSW_14_1_0_pre4/src/")
 os.system("cmsenv")
 
-outputDir = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/"
+outputDir = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/bkg_20/"
 
 DIRECTORY = "/ceph/awiedl/FCCee/HiggsCP/ecm240/"
 TAG = [

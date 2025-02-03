@@ -98,7 +98,7 @@ os.system("cd /work/xzuo/combine_test/CMSSW_14_1_0_pre4/src/")
 os.system("cmsenv")
 
 input_file = "significance.txt"
-outputDir = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/"
+outputDir = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/bkg_20/"
 output_file = outputDir + "output_xsec.csv"
 
 tab = []
@@ -132,15 +132,15 @@ for k, tag in enumerate(TAG):
 
     for cat in CAT:
         for sub in SUBDIR:
-
+            tagg = tag
             if cat == 'NuNu' and sub == 'LL':
-                tag = 'ktN-explicit'
+                tagg = 'ktN-explicit'
 
             n_cat.append(f"{cat+sub} & ")
 
-            dir = f"{outputDir}/{tag}/{cat}/{sub}/"
+            dir = f"{outputDir}/{tagg}/{cat}/{sub}/"
 
-            file_read = f"{outputDir}/{tag}/{cat}/{sub}/{input_file}"
+            file_read = f"{outputDir}/{tagg}/{cat}/{sub}/{input_file}"
 
             #get fit from subcategories
             content_of_row = do_combine(dir, file_read)
@@ -152,7 +152,7 @@ for k, tag in enumerate(TAG):
 
             # Write the content of the selected row to the output CSV file
             with open(output_file, "a") as csv_file:
-                csv_file.write(f"{tag}/{cat}/{sub}: {content_of_row} \n")
+                csv_file.write(f"{tagg}/{cat}/{sub}: {content_of_row} \n")
 
             processed= process_content_of_row(content_of_row)
             ele.append(f"{processed} & ")

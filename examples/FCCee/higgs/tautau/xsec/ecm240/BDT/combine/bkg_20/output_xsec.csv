@@ -861,7 +861,6 @@ ktN-tag combined:  1  -0.0068968/+0.00691358  (68% CL)
 ###### NuNuLH tag new training + 20% Uncertainty ########
 
 
-
 R5-explicit/QQ/LL:  1  -0.047198/+0.0483862  (68% CL)
  
 R5-explicit/QQ/LH:  1  -0.0182171/+0.0185757  (68% CL)
@@ -880,13 +879,13 @@ R5-explicit/LL:  1  -0.020411/+0.0206499  (68% CL)
  
 ktN-explicit/NuNu/LL:  1.00001  -0.736946/+0.73818  (68% CL)
  
-ktN-explicit/NuNu/LH:  1  -0.122466/+0.122561  (68% CL)
+R5-explicit/NuNu/LH:  1  -0.106505/+0.107171  (68% CL)
  
-ktN-explicit/NuNu/HH:  1  -0.0500204/+0.0501868  (68% CL)
+R5-explicit/NuNu/HH:  1  -0.0488199/+0.0489368  (68% CL)
  
-ktN-explicit/NuNu:  1  -0.0459143/+0.0465855  (68% CL)
+R5-explicit/NuNu:  1  -0.0439811/+0.0445848  (68% CL)
  
-ktN-explicit combined:  1  -0.00815612/+0.00821826  (68% CL)
+R5-explicit combined:  1  -0.0094265/+0.00946316  (68% CL)
  
 
 R5-tag/QQ/LL:  1  -0.0424424/+0.0436153  (68% CL)
@@ -907,13 +906,13 @@ R5-tag/LL:  1  -0.0163508/+0.016499  (68% CL)
  
 ktN-explicit/NuNu/LL:  1.00001  -0.736946/+0.73818  (68% CL)
  
-ktN-explicit/NuNu/LH:  1  -0.122466/+0.122561  (68% CL)
+R5-tag/NuNu/LH:  0.999999  -0.104695/+0.105232  (68% CL)
  
-ktN-explicit/NuNu/HH:  1  -0.0500204/+0.0501868  (68% CL)
+R5-tag/NuNu/HH:  1  -0.0438352/+0.0440308  (68% CL)
  
-ktN-explicit/NuNu:  1  -0.0459143/+0.0465855  (68% CL)
+R5-tag/NuNu:  1  -0.0403482/+0.0405463  (68% CL)
  
-ktN-explicit combined:  1  -0.00815612/+0.00821826  (68% CL)
+R5-tag combined:  1  -0.00728447/+0.0073037  (68% CL)
  
 
 ktN-explicit/QQ/LL:  1  -0.0354354/+0.0358125  (68% CL)
@@ -961,12 +960,12 @@ ktN-tag/LL:  1  -0.0193907/+0.0195725  (68% CL)
  
 ktN-explicit/NuNu/LL:  1.00001  -0.736946/+0.73818  (68% CL)
  
-ktN-explicit/NuNu/LH:  1  -0.122466/+0.122561  (68% CL)
+ktN-tag/NuNu/LH:  0.999998  -0.132143/+0.132023  (68% CL)
  
-ktN-explicit/NuNu/HH:  1  -0.0500204/+0.0501868  (68% CL)
+ktN-tag/NuNu/HH:  1  -0.0456753/+0.0462931  (68% CL)
  
-ktN-explicit/NuNu:  1  -0.0459143/+0.0465855  (68% CL)
+ktN-tag/NuNu:  0.999999  -0.0435345/+0.0436153  (68% CL)
  
-ktN-explicit combined:  1  -0.00815612/+0.00821826  (68% CL)
+ktN-tag combined:  1  -0.00704993/+0.00683316  (68% CL)
  
 

@@ -1,4 +1,4 @@
-Combination of LLLL=/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine//R5-tag/LL/LL/datacard.txt  LLLH=/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine//R5-tag/LL/LH/datacard.txt  LLHH=/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine//R5-tag/LL/HH/datacard.txt
+Combination of LLLL=/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/bkg_20//R5-tag/LL/LL/datacard.txt  LLLH=/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/bkg_20//R5-tag/LL/LH/datacard.txt  LLHH=/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/bkg_20//R5-tag/LL/HH/datacard.txt
 imax 3 number of bins
 jmax 9 number of processes minus 1
 kmax 3 number of nuisance parameters
