@@ -25,10 +25,10 @@ rate                       -1                                  -1               
 unc_nunuH      lnN     -                                  -                                  -                                  -                                  -                                  1.20                               -                                  -                                  
 unc_LLH      lnN     -                                  -                                  -                                  -                                  -                                  -                                  1.20                               1.20                               
 unc_tautauH      lnN     -                                  -                                  -                                  1.20                               1.20                               -                                  -                                  -                                  
-unc_p8_ee_ZZ_ecm240      lnN     -                                  1.00                               -                                  -                                  -                                  -                                  -                                  -                                  
+unc_p8_ee_ZZ_ecm240      lnN     -                                  1.20                               -                                  -                                  -                                  -                                  -                                  -                                  
 
 
-unc_wzp6_ee_LL_ecm240      lnN     -                                  -                                  1.00                               -                                  -                                  -                                  -                                  -                                  
+unc_wzp6_ee_LL_ecm240      lnN     -                                  -                                  1.20                               -                                  -                                  -                                  -                                  -                                  
 
 
 

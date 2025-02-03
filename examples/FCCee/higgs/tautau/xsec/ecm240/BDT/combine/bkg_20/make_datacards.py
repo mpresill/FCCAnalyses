@@ -300,7 +300,7 @@ if make_card:
                         dc += f"unc_{proc}      lnN     "
                         for p in procs:
                             if p == proc:
-                                dc += f"{'1.00':{' '}{'<'}{lspace}}"
+                                dc += f"{'1.20':{' '}{'<'}{lspace}}"
                             else:
                                 dc += f"{'-':{' '}{'<'}{lspace}}"
                         dc += "\n"
