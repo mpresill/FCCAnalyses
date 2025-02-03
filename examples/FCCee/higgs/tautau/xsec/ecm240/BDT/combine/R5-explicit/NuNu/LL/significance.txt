@@ -1,0 +1,10 @@
+ <<< Combine >>> 
+ <<< v10.0.2 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[ERROR] Minimization failed at r = 0.999903
+[ERROR] Minimization failed at r = 0.999903
+
+ --- FitDiagnostics ---
+Best fit r: 0.999903  -10.9999/+19.0001  (68% CL)
+Done in 0.01 min (cpu), 0.01 min (real)
