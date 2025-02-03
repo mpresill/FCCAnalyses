@@ -44,7 +44,7 @@ def get_combined_unc(name, procs, bkg_procs):
     line = f"unc_{name}      lnN     "
     for p in procs:
         if name in p and p in bkg_procs:
-            line += f"{'1.20':{' '}{'<'}{lspace}}"
+            line += f"{'-':{' '}{'<'}{lspace}}"
         else:
             line += f"{'-':{' '}{'<'}{lspace}}"
     line += "\n"
@@ -54,7 +54,7 @@ os.system("source /cvmfs/cms.cern.ch/cmsset_default.sh")
 os.system("cd /work/xzuo/combine_test/CMSSW_14_1_0_pre4/src/")
 os.system("cmsenv")
 
-outputDir = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/"
+outputDir = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/BDT/combine/bkg_00/"
 
 DIRECTORY = "/ceph/awiedl/FCCee/HiggsCP/ecm240/"
 TAG = [
@@ -300,7 +300,7 @@ if make_card:
                         dc += f"unc_{proc}      lnN     "
                         for p in procs:
                             if p == proc:
-                                dc += f"{'1.00':{' '}{'<'}{lspace}}"
+                                dc += f"{'-':{' '}{'<'}{lspace}}"
                             else:
                                 dc += f"{'-':{' '}{'<'}{lspace}}"
                         dc += "\n"

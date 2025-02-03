@@ -4,5 +4,5 @@
 >>> Method used is FitDiagnostics
 
  --- FitDiagnostics ---
-Best fit r: 1  -0.0403571/+0.0418146  (68% CL)
-Done in 0.00 min (cpu), 0.01 min (real)
+Best fit r: 1  -0.0407046/+0.0415883  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
