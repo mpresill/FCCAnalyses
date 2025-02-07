@@ -40,8 +40,8 @@ def get_procs(directory, cut, variable):
         #print(histo_list)
         return histo_list
 
-def get_combined_unc(name, procs, bkg_procs):
-    line = f"unc_{name}      lnN     "
+def get_combined_unc(Z_name, name, procs, bkg_procs):
+    line = f"unc_{name}      lnN     "                    #line = f"unc_{name}      lnN     "
     for p in procs:
         if name in p and p in bkg_procs:
             line += f"{'1.20':{' '}{'<'}{lspace}}"
@@ -288,25 +288,35 @@ if make_card:
 
 
                 if any("nunuH" in proc for proc in bkg_procs):
-                    dc += get_combined_unc("nunuH", procs, bkg_procs)
+                    dc += get_combined_unc("ZH","nunuH", procs, bkg_procs)
                 if any("LLH" in proc for proc in bkg_procs):
-                    dc += get_combined_unc("LLH", procs, bkg_procs)
+                    dc += get_combined_unc("ZH","LLH", procs, bkg_procs)
                 if any("QQH" in proc for proc in bkg_procs):
-                    dc += get_combined_unc("QQH", procs, bkg_procs)
+                    dc += get_combined_unc("ZH","QQH", procs, bkg_procs)
                 if any("tautauH" in proc for proc in bkg_procs):
-                    dc += get_combined_unc("tautauH", procs, bkg_procs)
+                    dc += get_combined_unc("ZH","tautauH", procs, bkg_procs)
+                if any("_ee_tautau_" in proc for proc in bkg_procs):
+                    dc += get_combined_unc("Z","_ee_tautau_", procs, bkg_procs)
+                if any("_ee_LL_" in proc for proc in bkg_procs):
+                    dc += get_combined_unc("Z","_ee_LL_", procs, bkg_procs)
+                if any("_ee_Zqq_" in proc for proc in bkg_procs):
+                    dc += get_combined_unc("Z","_ee_Zqq_", procs, bkg_procs)
                 for proc in bkg_procs:
-                    if all(substring not in proc for substring in ["nunuH", "LLH", "QQH", "tautauH"]):
+                    if all(substring not in proc for substring in ["nunuH", "LLH", "QQH", "tautauH","_ee_tautau_", "_ee_LL_", "_ee_Zqq_"]):
+                        #if all(substring in proc for substring in []):
+                           
                         dc += f"unc_{proc}      lnN     "
                         for p in procs:
-                            if p == proc:
+                            if p == proc and ('p8_ee_ZZ_ecm240' in proc or 'p8_ee_WW_ecm240' in proc):
+                                dc += f"{'1.20':{' '}{'<'}{lspace}}"
+                            elif p == proc:
                                 dc += f"{'1.20':{' '}{'<'}{lspace}}"
                             else:
                                 dc += f"{'-':{' '}{'<'}{lspace}}"
                         dc += "\n"
                     dc += "\n\n"
 
-                dc += "* autoMCStats 1 1"
+                #dc += "* autoMCStats 1 1"
 
                 # write cards
                 if not os.path.exists(f"{outputDir}/{tag}/{cat}/{sub}"):

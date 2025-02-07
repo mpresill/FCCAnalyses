@@ -42,4 +42,3 @@ unc_wzp6_ee_egamma_eZ_ZLL_ecm240      lnN     -                                 
 
 
 
-* autoMCStats 1 1

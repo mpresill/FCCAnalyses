@@ -51,4 +51,3 @@ unc_p8_ee_ZZ_ecm240      lnN     -                                  -           
 
 
 
-* autoMCStats 1 1
