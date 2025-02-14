@@ -2,8 +2,9 @@
  <<< v10.0.2 >>>
 >>> Random number generator seed is 123456
 >>> Method used is FitDiagnostics
-[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+[ERROR] Minimization failed at r = 0.999914
+[ERROR] Minimization failed at r = 0.999914
 
  --- FitDiagnostics ---
-Best fit r: 0.999999  -0.107252/+0.107441  (68% CL)
+Best fit r: 0.999914  -20.9999/+19.0001  (68% CL)
 Done in 0.01 min (cpu), 0.01 min (real)

@@ -1293,3 +1293,303 @@ ktN-tag/NuNu:  0.999993  -0.0433297/+0.0433995  (68% CL)
 ktN-tag combined:  0.999997  -0.00626252/+0.00628964  (68% CL)
  
 
+R5-explicit/QQ/LL:  1  -0.0465509/+0.0476899  (68% CL)
+ 
+R5-explicit/QQ/LH:  1  -0.0180384/+0.018209  (68% CL)
+ 
+R5-explicit/QQ/HH:  1  -0.0134468/+0.013552  (68% CL)
+ 
+R5-explicit/QQ:  1  -0.0105204/+0.0105821  (68% CL)
+ 
+R5-explicit/LL/LL:  1  -0.162612/+0.167165  (68% CL)
+ 
+R5-explicit/LL/LH:  1  -0.0443196/+0.0454368  (68% CL)
+ 
+R5-explicit/LL/HH:  1  -0.0231278/+0.0234428  (68% CL)
+ 
+R5-explicit/LL:  1  -0.0203884/+0.0206275  (68% CL)
+ 
+R5-explicit/NuNu/LL:  0.999903  -10.9999/+19.0001  (68% CL)
+ 
+R5-explicit/NuNu/LH:  0.999999  -0.107252/+0.107441  (68% CL)
+ 
+R5-explicit/NuNu/HH:  1  -0.0489701/+0.0490782  (68% CL)
+ 
+R5-explicit/NuNu:  0.999938  -10.9999/+19.0001  (68% CL)
+ 
+R5-explicit combined:  1  -0.00915804/+0.00920305  (68% CL)
+ 
+
+R5-tag/QQ/LL:  1  -0.0420273/+0.0429377  (68% CL)
+ 
+R5-tag/QQ/LH:  1  -0.0141228/+0.0142326  (68% CL)
+ 
+R5-tag/QQ/HH:  1  -0.00973566/+0.00979073  (68% CL)
+ 
+R5-tag/QQ:  1  -0.00788308/+0.00791832  (68% CL)
+ 
+R5-tag/LL/LL:  1  -0.162612/+0.167165  (68% CL)
+ 
+R5-tag/LL/LH:  1  -0.0407046/+0.0415883  (68% CL)
+ 
+R5-tag/LL/HH:  1  -0.0178787/+0.0180623  (68% CL)
+ 
+R5-tag/LL:  1  -0.0163117/+0.0164612  (68% CL)
+ 
+R5-tag/NuNu/LL:  1  -0.725809/+0.726633  (68% CL)
+ 
+R5-tag/NuNu/LH:  0.999987  -0.105364/+0.105527  (68% CL)
+ 
+R5-tag/NuNu/HH:  0.999994  -0.0440303/+0.044113  (68% CL)
+ 
+R5-tag/NuNu:  0.999994  -0.0405661/+0.0406325  (68% CL)
+ 
+R5-tag combined:  1  -0.00699655/+0.00702316  (68% CL)
+ 
+
+ktN-explicit/QQ/LL:  1  -0.0339967/+0.0345728  (68% CL)
+ 
+ktN-explicit/QQ/LH:  1  -0.0136521/+0.0137449  (68% CL)
+ 
+ktN-explicit/QQ/HH: error 
+ktN-explicit/QQ: error 
+ktN-explicit/LL/LL: error 
+ktN-explicit/LL/LH: error 
+ktN-explicit/LL/HH: error 
+ktN-explicit/LL: error 
+ktN-explicit/NuNu/LL: error 
+ktN-explicit/NuNu/LH: error 
+ktN-explicit/NuNu/HH: error 
+ktN-explicit/NuNu: error 
+ktN-explicit combined: error 
+
+ktN-tag/QQ/LL: error 
+ktN-tag/QQ/LH: error 
+ktN-tag/QQ/HH: error 
+ktN-tag/QQ: error 
+ktN-tag/LL/LL: error 
+ktN-tag/LL/LH: error 
+ktN-tag/LL/HH: error 
+ktN-tag/LL: error 
+ktN-tag/NuNu/LL: error 
+ktN-tag/NuNu/LH: error 
+ktN-tag/NuNu/HH: error 
+ktN-tag/NuNu: error 
+ktN-tag combined: error 
+
+R5-explicit/QQ/LL:  1  -0.0465509/+0.0476899  (68% CL)
+ 
+R5-explicit/QQ/LH:  1  -0.0180384/+0.018209  (68% CL)
+ 
+R5-explicit/QQ/HH:  1  -0.0134468/+0.013552  (68% CL)
+ 
+R5-explicit/QQ:  1  -0.0105204/+0.0105821  (68% CL)
+ 
+R5-explicit/LL/LL:  1  -0.162612/+0.167165  (68% CL)
+ 
+R5-explicit/LL/LH:  1  -0.0443196/+0.0454368  (68% CL)
+ 
+R5-explicit/LL/HH:  1  -0.0231278/+0.0234428  (68% CL)
+ 
+R5-explicit/LL:  1  -0.0203884/+0.0206275  (68% CL)
+ 
+R5-tag/NuNu/LL:  1  -0.725809/+0.726633  (68% CL)
+ 
+R5-explicit/NuNu/LH:  0.999999  -0.107252/+0.107441  (68% CL)
+ 
+R5-explicit/NuNu/HH:  1  -0.0489701/+0.0490782  (68% CL)
+ 
+R5-explicit/NuNu:  0.999938  -10.9999/+19.0001  (68% CL)
+ 
+R5-explicit combined:  1  -0.00915804/+0.00920305  (68% CL)
+ 
+
+R5-tag/QQ/LL:  1  -0.0420273/+0.0429377  (68% CL)
+ 
+R5-tag/QQ/LH:  1  -0.0141228/+0.0142326  (68% CL)
+ 
+R5-tag/QQ/HH:  1  -0.00973566/+0.00979073  (68% CL)
+ 
+R5-tag/QQ:  1  -0.00788308/+0.00791832  (68% CL)
+ 
+R5-tag/LL/LL:  1  -0.162612/+0.167165  (68% CL)
+ 
+R5-tag/LL/LH:  1  -0.0407046/+0.0415883  (68% CL)
+ 
+R5-tag/LL/HH:  1  -0.0178787/+0.0180623  (68% CL)
+ 
+R5-tag/LL:  1  -0.0163117/+0.0164612  (68% CL)
+ 
+R5-tag/NuNu/LL:  1  -0.725809/+0.726633  (68% CL)
+ 
+R5-tag/NuNu/LH:  0.999987  -0.105364/+0.105527  (68% CL)
+ 
+R5-tag/NuNu/HH:  0.999994  -0.0440303/+0.044113  (68% CL)
+ 
+R5-tag/NuNu:  0.999994  -0.0405661/+0.0406325  (68% CL)
+ 
+R5-tag combined:  1  -0.00699655/+0.00702316  (68% CL)
+ 
+
+ktN-explicit/QQ/LL:  1  -0.0339967/+0.0345728  (68% CL)
+ 
+ktN-explicit/QQ/LH:  1  -0.0136521/+0.0137449  (68% CL)
+ 
+ktN-explicit/QQ/HH:  1  -0.0111385/+0.0111999  (68% CL)
+ 
+ktN-explicit/QQ:  1  -0.0083756/+0.00841032  (68% CL)
+ 
+ktN-explicit/LL/LL:  1  -0.162612/+0.167165  (68% CL)
+ 
+ktN-explicit/LL/LH:  1  -0.0505246/+0.0519333  (68% CL)
+ 
+ktN-explicit/LL/HH:  1  -0.0239473/+0.0242841  (68% CL)
+ 
+ktN-explicit/LL:  1  -0.0214939/+0.0217671  (68% CL)
+ 
+R5-tag/NuNu/LL:  1  -0.725809/+0.726633  (68% CL)
+ 
+ktN-explicit/NuNu/LH:  0.999935  -10.9999/+19.0001  (68% CL)
+ 
+ktN-explicit/NuNu/HH:  0.999994  -0.05018/+0.0503068  (68% CL)
+ 
+ktN-explicit/NuNu:  0.999993  -0.0463574/+0.0464598  (68% CL)
+ 
+ktN-explicit combined:  0.999996  -0.00769752/+0.00773383  (68% CL)
+ 
+
+ktN-tag/QQ/LL:  1  -0.0285809/+0.0290293  (68% CL)
+ 
+ktN-tag/QQ/LH:  1  -0.0113432/+0.0114129  (68% CL)
+ 
+ktN-tag/QQ/HH:  1  -0.00865614/+0.00869756  (68% CL)
+ 
+ktN-tag/QQ:  1  -0.00669751/+0.00672197  (68% CL)
+ 
+ktN-tag/LL/LL:  1  -0.162612/+0.167165  (68% CL)
+ 
+ktN-tag/LL/LH:  1  -0.0524009/+0.0537334  (68% CL)
+ 
+ktN-tag/LL/HH:  1  -0.0209649/+0.0211818  (68% CL)
+ 
+ktN-tag/LL:  1  -0.0193572/+0.0195395  (68% CL)
+ 
+R5-tag/NuNu/LL:  1  -0.725809/+0.726633  (68% CL)
+ 
+ktN-tag/NuNu/LH:  0.999988  -0.13033/+0.130542  (68% CL)
+ 
+ktN-tag/NuNu/HH:  0.999993  -0.0460278/+0.0461108  (68% CL)
+ 
+ktN-tag/NuNu:  0.999993  -0.0433297/+0.0433995  (68% CL)
+ 
+ktN-tag combined:  0.999997  -0.00626252/+0.00628964  (68% CL)
+ 
+
+R5-explicit/QQ/LL:  1  -0.0465511/+0.0476897  (68% CL)
+ 
+R5-explicit/QQ/LH:  1  -0.0180384/+0.0182088  (68% CL)
+ 
+R5-explicit/QQ/HH:  1  -0.013447/+0.0135521  (68% CL)
+ 
+R5-explicit/QQ:  1  -0.0105207/+0.0105821  (68% CL)
+ 
+R5-explicit/LL/LL:  1  -0.162614/+0.167166  (68% CL)
+ 
+R5-explicit/LL/LH:  1  -0.0443197/+0.0454367  (68% CL)
+ 
+R5-explicit/LL/HH:  1  -0.0231277/+0.023443  (68% CL)
+ 
+R5-explicit/LL:  1  -0.0203878/+0.0206279  (68% CL)
+ 
+ktN-explicit/NuNu/LL:  0.999921  -20.9999/+19.0001  (68% CL)
+ 
+R5-explicit/NuNu/LH:  0.999914  -20.9999/+19.0001  (68% CL)
+ 
+R5-explicit/NuNu/HH:  1  -0.0489698/+0.0490783  (68% CL)
+ 
+R5-explicit/NuNu:  0.999992  -0.0444611/+0.0445571  (68% CL)
+ 
+R5-explicit combined:  1  -0.00915803/+0.00920319  (68% CL)
+ 
+
+R5-tag/QQ/LL:  1  -0.0420274/+0.0429376  (68% CL)
+ 
+R5-tag/QQ/LH:  1  -0.0141227/+0.0142331  (68% CL)
+ 
+R5-tag/QQ/HH:  1  -0.00973565/+0.00979052  (68% CL)
+ 
+R5-tag/QQ:  1  -0.0078832/+0.0079182  (68% CL)
+ 
+R5-tag/LL/LL:  1  -0.162614/+0.167166  (68% CL)
+ 
+R5-tag/LL/LH:  1  -0.0407045/+0.0415885  (68% CL)
+ 
+R5-tag/LL/HH:  1  -0.0178788/+0.018062  (68% CL)
+ 
+R5-tag/LL:  1  -0.016312/+0.0164614  (68% CL)
+ 
+ktN-explicit/NuNu/LL:  0.999921  -20.9999/+19.0001  (68% CL)
+ 
+R5-tag/NuNu/LH:  0.999987  -0.105364/+0.105527  (68% CL)
+ 
+R5-tag/NuNu/HH:  0.999992  -0.0440282/+0.0441151  (68% CL)
+ 
+R5-tag/NuNu:  0.999992  -0.0405638/+0.0406347  (68% CL)
+ 
+R5-tag combined:  1  -0.00699636/+0.0070233  (68% CL)
+ 
+
+ktN-explicit/QQ/LL:  1  -0.0339965/+0.0345734  (68% CL)
+ 
+ktN-explicit/QQ/LH:  1  -0.0136518/+0.0137452  (68% CL)
+ 
+ktN-explicit/QQ/HH:  1  -0.0111386/+0.0111997  (68% CL)
+ 
+ktN-explicit/QQ:  1  -0.00837586/+0.0084102  (68% CL)
+ 
+ktN-explicit/LL/LL:  1  -0.162614/+0.167166  (68% CL)
+ 
+ktN-explicit/LL/LH:  1  -0.0505249/+0.0519312  (68% CL)
+ 
+ktN-explicit/LL/HH:  1  -0.0239474/+0.0242847  (68% CL)
+ 
+ktN-explicit/LL:  1  -0.0214983/+0.0217625  (68% CL)
+ 
+ktN-explicit/NuNu/LL:  0.999921  -20.9999/+19.0001  (68% CL)
+ 
+ktN-explicit/NuNu/LH:  0.99999  -0.122637/+0.122908  (68% CL)
+ 
+ktN-explicit/NuNu/HH:  0.999991  -0.0501766/+0.0503098  (68% CL)
+ 
+ktN-explicit/NuNu:  0.999993  -0.0463577/+0.0464598  (68% CL)
+ 
+ktN-explicit combined:  1  -0.00770129/+0.00773006  (68% CL)
+ 
+
+ktN-tag/QQ/LL:  1  -0.0285818/+0.029029  (68% CL)
+ 
+ktN-tag/QQ/LH:  1  -0.0113432/+0.0114126  (68% CL)
+ 
+ktN-tag/QQ/HH:  1  -0.00865625/+0.00869735  (68% CL)
+ 
+ktN-tag/QQ:  1  -0.00669759/+0.00672182  (68% CL)
+ 
+ktN-tag/LL/LL:  1  -0.162614/+0.167166  (68% CL)
+ 
+ktN-tag/LL/LH:  1  -0.0524008/+0.0537336  (68% CL)
+ 
+ktN-tag/LL/HH:  1  -0.0209643/+0.021182  (68% CL)
+ 
+ktN-tag/LL:  1  -0.0193574/+0.0195397  (68% CL)
+ 
+ktN-explicit/NuNu/LL:  0.999921  -20.9999/+19.0001  (68% CL)
+ 
+ktN-tag/NuNu/LH:  0.999986  -0.130327/+0.130545  (68% CL)
+ 
+ktN-tag/NuNu/HH:  0.999992  -0.0460268/+0.0461118  (68% CL)
+ 
+ktN-tag/NuNu:  0.999992  -0.0433283/+0.0434008  (68% CL)
+ 
+ktN-tag combined:  0.999996  -0.00626129/+0.00629084  (68% CL)
+ 
+

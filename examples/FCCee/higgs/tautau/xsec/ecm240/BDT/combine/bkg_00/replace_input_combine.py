@@ -40,7 +40,7 @@ def do_combine(outdir, file):
             datacard = filename
 
     os.system(f"text2workspace.py {outdir}/{datacard} -o {outdir}/ws.root")
-    os.system(f"combine -M FitDiagnostics -t -1 --expectSignal=1 {outdir}/ws.root --rMin -10  --cminDefaultMinimizerStrategy 0 --robustFit 1 >{file}")
+    os.system(f"combine -M FitDiagnostics -t -1 --expectSignal=1 {outdir}/ws.root --rMin -20  --cminDefaultMinimizerStrategy 0 --robustFit 1 >{file}")
 
     with open(file, "r") as file:
             read = False
@@ -60,7 +60,7 @@ def do_combine_alt(outdir, file):
             datacard = filename
 
     os.system(f"text2workspace.py {outdir}/{datacard} -o {outdir}/ws.root")
-    os.system(f"combine -M FitDiagnostics -t -1 --expectSignal=1 {outdir}/ws.root --rMin -10  --cminDefaultMinimizerStrategy 0 >{file}")
+    os.system(f"combine -M FitDiagnostics -t -1 --expectSignal=1 {outdir}/ws.root --rMin -20  --cminDefaultMinimizerStrategy 0 >{file}")
 
     with open(file, "r") as file:
             read = False

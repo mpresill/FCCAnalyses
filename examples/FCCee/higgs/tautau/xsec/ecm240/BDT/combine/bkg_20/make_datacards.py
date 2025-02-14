@@ -41,7 +41,7 @@ def get_procs(directory, cut, variable):
         return histo_list
 
 def get_combined_unc(Z_name, name, procs, bkg_procs):
-    line = f"unc_{name}      lnN     "                    #line = f"unc_{name}      lnN     "
+    line = f"unc_{Z_name}      lnN     "                    #line = f"unc_{name}      lnN     "
     for p in procs:
         if name in p and p in bkg_procs:
             line += f"{'1.20':{' '}{'<'}{lspace}}"
@@ -76,8 +76,8 @@ CAT = [
 ]
 CUTS = {
     'LL':"selReco_100Coll150_115Rec160_2DR_cos0.6_misscos0.98_70Z100",
-    'QQ':"selReco_0.5BDT",
-    'NuNu':"selReco_0.5BDT",
+    'QQ':"selReco",
+    'NuNu':"selReco",
     #'LL/HH':"selReco_100Coll150_115Rec160_2DR_cos0.6_misscos0.96_80Z100_4Emiss_Zp54",
     #'LL/LH':"selReco_100Coll150_115Rec160_2DR_cos0.6_misscos0.88_84Z100_4Emiss_Zp54",
     #'LL/LL':"selReco_100Coll150_115Rec160_2DR_cos0.6_misscos0.9_80Z100_40Emiss_Zp54",
@@ -308,7 +308,7 @@ if make_card:
                         dc += f"unc_{proc}      lnN     "
                         for p in procs:
                             if p == proc and ('p8_ee_ZZ_ecm240' in proc or 'p8_ee_WW_ecm240' in proc):
-                                dc += f"{'1.20':{' '}{'<'}{lspace}}"
+                                dc += f"{'1.02':{' '}{'<'}{lspace}}"
                             elif p == proc:
                                 dc += f"{'1.20':{' '}{'<'}{lspace}}"
                             else:
@@ -316,7 +316,7 @@ if make_card:
                         dc += "\n"
                     dc += "\n\n"
 
-                #dc += "* autoMCStats 1 1"
+                dc += "* autoMCStats 1 1"
 
                 # write cards
                 if not os.path.exists(f"{outputDir}/{tag}/{cat}/{sub}"):

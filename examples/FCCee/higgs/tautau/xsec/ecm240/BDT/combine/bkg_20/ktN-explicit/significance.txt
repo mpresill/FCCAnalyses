@@ -4227,4 +4227,4 @@ RooAbsReal::NuNu_NuNuHH[ params=(ONE,n_exp_binNuNu_NuNuHH_proc_wzp6_ee_LLH_HQQ_e
 
  --- FitDiagnostics ---
 Best fit r: 1  -11/+0.00170322  (68% CL)
-Done in 3.08 min (cpu), 3.09 min (real)
+Done in 2.89 min (cpu), 2.91 min (real)

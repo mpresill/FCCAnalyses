@@ -76,155 +76,228 @@ vars_list = ["RecoEmiss_pz",
             "Visible_mass",
             ]
 
-sigs = ['wzp6_ee_mumuH_Htautau_ecm240',
-        'wzp6_ee_qqH_Htautau_ecm240',
-        'wzp6_ee_ssH_Htautau_ecm240',
-        'wzp6_ee_nunuH_Htautau_ecm240',
-        'wzp6_ee_bbH_Htautau_ecm240',
-        'wzp6_ee_ccH_Htautau_ecm240',
-        'wzp6_ee_eeH_Htautau_ecm240'
+sigs_ZH = ['wzp6_ee_numunumuH_Htautau_ecm365'
+        'wzp6_ee_tautauH_Htautau_ecm365',
+        'wzp6_ee_mumuH_Htautau_ecm365',
+        'wzp6_ee_qqH_Htautau_ecm365',
+        'wzp6_ee_ssH_Htautau_ecm365',
+        'wzp6_ee_nunuH_Htautau_ecm365',
+        'wzp6_ee_bbH_Htautau_ecm365',
+        'wzp6_ee_ccH_Htautau_ecm365',
+        'wzp6_ee_eeH_Htautau_ecm365'
 ]
 
-bkgs = ['p8_ee_WW_ecm240',
-        'p8_ee_Zqq_ecm240',
-        'p8_ee_ZZ_ecm240',
-        'wzp6_ee_tautau_ecm240',
-        'wzp6_ee_mumu_ecm240',
-        'wzp6_ee_ee_Mee_30_150_ecm240',
-        'wzp6_ee_tautauH_Htautau_ecm240',
-        'wzp6_ee_tautauH_Hbb_ecm240',
-        'wzp6_ee_tautauH_Hcc_ecm240',
-        'wzp6_ee_tautauH_Hss_ecm240',
-        'wzp6_ee_tautauH_Hgg_ecm240',
-        'wzp6_ee_tautauH_HWW_ecm240',
-        'wzp6_ee_tautauH_HZZ_ecm240',
-        'wzp6_egamma_eZ_Zmumu_ecm240',
-        'wzp6_egamma_eZ_Zee_ecm240',
-        'wzp6_gammae_eZ_Zmumu_ecm240',
-        'wzp6_gammae_eZ_Zee_ecm240',
-        'wzp6_gaga_tautau_60_ecm240',
-        'wzp6_gaga_mumu_60_ecm240',
-        'wzp6_gaga_ee_60_ecm240',
-        'wzp6_ee_nuenueZ_ecm240',
-        'wzp6_ee_nunuH_Hbb_ecm240',
-        'wzp6_ee_nunuH_Hcc_ecm240',
-        'wzp6_ee_nunuH_Hss_ecm240',
-        'wzp6_ee_nunuH_Hgg_ecm240',
-        'wzp6_ee_nunuH_HWW_ecm240',
-        'wzp6_ee_nunuH_HZZ_ecm240',
-        'wzp6_ee_eeH_Hbb_ecm240',
-        'wzp6_ee_eeH_Hcc_ecm240',
-        'wzp6_ee_eeH_Hss_ecm240',
-        'wzp6_ee_eeH_Hgg_ecm240',
-        'wzp6_ee_eeH_HWW_ecm240',
-        'wzp6_ee_eeH_HZZ_ecm240',
-        'wzp6_ee_mumuH_Hbb_ecm240',
-        'wzp6_ee_mumuH_Hcc_ecm240',
-        'wzp6_ee_mumuH_Hss_ecm240',
-        'wzp6_ee_mumuH_Hgg_ecm240',
-        'wzp6_ee_mumuH_HWW_ecm240',
-        'wzp6_ee_mumuH_HZZ_ecm240',
-        'wzp6_ee_bbH_Hbb_ecm240',
-        'wzp6_ee_bbH_Hcc_ecm240',
-        'wzp6_ee_bbH_Hss_ecm240',
-        'wzp6_ee_bbH_Hgg_ecm240',
-        'wzp6_ee_bbH_HWW_ecm240',
-        'wzp6_ee_bbH_HZZ_ecm240',
-        'wzp6_ee_ccH_Hbb_ecm240',
-        'wzp6_ee_ccH_Hcc_ecm240',
-        'wzp6_ee_ccH_Hss_ecm240',
-        'wzp6_ee_ccH_Hgg_ecm240',
-        'wzp6_ee_ccH_HWW_ecm240',
-        'wzp6_ee_ccH_HZZ_ecm240',
-        'wzp6_ee_ssH_Hbb_ecm240',
-        'wzp6_ee_ssH_Hcc_ecm240',
-        'wzp6_ee_ssH_Hss_ecm240',
-        'wzp6_ee_ssH_Hgg_ecm240',
-        'wzp6_ee_ssH_HWW_ecm240',
-        'wzp6_ee_ssH_HZZ_ecm240',
-        'wzp6_ee_qqH_Hbb_ecm240',
-        'wzp6_ee_qqH_Hcc_ecm240',
-        'wzp6_ee_qqH_Hss_ecm240',
-        'wzp6_ee_qqH_Hgg_ecm240',
-        'wzp6_ee_qqH_HWW_ecm240',
-        'wzp6_ee_qqH_HZZ_ecm240'
+sigs_VBF = ['wzp6_ee_nuenueH_Htautau_ecm365']
+
+bkgs = ['p8_ee_WW_ecm365',
+    'p8_ee_Zqq_ecm365',
+    'p8_ee_ZZ_ecm365',
+    'p8_ee_Zbb_ecm365',
+    'p8_ee_Zcc_ecm365',
+    'p8_ee_Zss_ecm365',
+    'p8_ee_tt_ecm365',
+    
+    'wzp6_ee_tautau_ecm365',
+    'wzp6_ee_mumu_ecm365',
+    'wzp6_ee_ee_Mee_30_150_ecm365',
+
+    'wzp6_ee_tautauH_Htautau_ecm365',
+    'wzp6_ee_tautauH_Hbb_ecm365',
+    'wzp6_ee_tautauH_Hcc_ecm365',
+    'wzp6_ee_tautauH_Hss_ecm365',
+    'wzp6_ee_tautauH_Hgg_ecm365',
+    'wzp6_ee_tautauH_HWW_ecm365',
+    'wzp6_ee_tautauH_HZZ_ecm365',
+
+    'wzp6_egamma_eZ_Zmumu_ecm365',
+    'wzp6_egamma_eZ_Zee_ecm365',
+    'wzp6_gammae_eZ_Zmumu_ecm365',
+    'wzp6_gammae_eZ_Zee_ecm365',
+
+    'wzp6_gaga_tautau_60_ecm365',
+    'wzp6_gaga_mumu_60_ecm365',
+    'wzp6_gaga_ee_60_ecm365',
+
+    'wzp6_ee_nuenueZ_ecm365',
+    'wzp6_ee_nunuH_Htautau_ecm365',
+    'wzp6_ee_nunuH_Hbb_ecm365',
+    'wzp6_ee_nunuH_Hcc_ecm365',
+    'wzp6_ee_nunuH_Hss_ecm365',
+    'wzp6_ee_nunuH_Hgg_ecm365',
+    'wzp6_ee_nunuH_HWW_ecm365',
+    'wzp6_ee_nunuH_HZZ_ecm365',
+
+    'wzp6_ee_eeH_Htautau_ecm365',
+    'wzp6_ee_eeH_Hbb_ecm365',
+    'wzp6_ee_eeH_Hcc_ecm365',
+    'wzp6_ee_eeH_Hss_ecm365',
+    'wzp6_ee_eeH_Hgg_ecm365',
+    'wzp6_ee_eeH_HWW_ecm365',
+    'wzp6_ee_eeH_HZZ_ecm365',
+
+    'wzp6_ee_mumuH_Htautau_ecm365',
+    'wzp6_ee_mumuH_Hbb_ecm365',
+    'wzp6_ee_mumuH_Hcc_ecm365',
+    'wzp6_ee_mumuH_Hss_ecm365',
+    'wzp6_ee_mumuH_Hgg_ecm365',
+    'wzp6_ee_mumuH_HWW_ecm365',
+    'wzp6_ee_mumuH_HZZ_ecm365',
+
+    'wzp6_ee_bbH_Htautau_ecm365',
+    'wzp6_ee_bbH_Hbb_ecm365',
+    'wzp6_ee_bbH_Hcc_ecm365',
+    'wzp6_ee_bbH_Hss_ecm365',
+    'wzp6_ee_bbH_Hgg_ecm365',
+    'wzp6_ee_bbH_HWW_ecm365',
+    'wzp6_ee_bbH_HZZ_ecm365',
+
+    'wzp6_ee_ccH_Htautau_ecm365',
+    'wzp6_ee_ccH_Hbb_ecm365',
+    'wzp6_ee_ccH_Hcc_ecm365',
+    'wzp6_ee_ccH_Hss_ecm365',
+    'wzp6_ee_ccH_Hgg_ecm365',
+    'wzp6_ee_ccH_HWW_ecm365',
+    'wzp6_ee_ccH_HZZ_ecm365',
+
+    'wzp6_ee_ssH_Htautau_ecm365',
+    'wzp6_ee_ssH_Hbb_ecm365',
+    'wzp6_ee_ssH_Hcc_ecm365',
+    'wzp6_ee_ssH_Hss_ecm365',
+    'wzp6_ee_ssH_Hgg_ecm365',
+    'wzp6_ee_ssH_HWW_ecm365',
+    'wzp6_ee_ssH_HZZ_ecm365',
+
+    'wzp6_ee_qqH_Htautau_ecm365',
+    'wzp6_ee_qqH_Hbb_ecm365',
+    'wzp6_ee_qqH_Hcc_ecm365',
+    'wzp6_ee_qqH_Hss_ecm365',
+    'wzp6_ee_qqH_Hgg_ecm365',
+    'wzp6_ee_qqH_HWW_ecm365',
+    'wzp6_ee_qqH_HZZ_ecm365',
+
+    'wzp6_ee_nuenueH_Htautau_ecm365',
+    'wzp6_ee_nuenueH_Hbb_ecm365',
+    'wzp6_ee_nuenueH_Hcc_ecm365',
+    'wzp6_ee_nuenueH_Hss_ecm365',
+    'wzp6_ee_nuenueH_Hgg_ecm365',
+    'wzp6_ee_nuenueH_HWW_ecm365',
+    'wzp6_ee_nuenueH_HZZ_ecm365',  
+
+    'wzp6_ee_numunumuH_Htautau_ecm365',
+    'wzp6_ee_numunumuH_Hbb_ecm365',
+    'wzp6_ee_numunumuH_Hcc_ecm365',
+    'wzp6_ee_numunumuH_Hss_ecm365',
+    'wzp6_ee_numunumuH_Hgg_ecm365',
+    'wzp6_ee_numunumuH_HWW_ecm365',
+    'wzp6_ee_numunumuH_HZZ_ecm365',
 ]
 
-xsec = {'p8_ee_WW_ecm240':16.4385,
-        'p8_ee_Zqq_ecm240':52.6539,
-        'p8_ee_ZZ_ecm240':1.35899,
-        'wzp6_ee_tautau_ecm240':4.668,
-        'wzp6_ee_mumu_ecm240':5.288,
-        'wzp6_ee_ee_Mee_30_150_ecm240':8.305,
-        'wzp6_ee_tautauH_Hbb_ecm240':0.003932,
-        'wzp6_ee_tautauH_Hcc_ecm240':0.0001952,
-        'wzp6_ee_tautauH_Hss_ecm240':1.62e-06,
-        'wzp6_ee_tautauH_Hgg_ecm240':0.0005528,
-        'wzp6_ee_tautauH_HWW_ecm240':0.001453,
-        'wzp6_ee_tautauH_HZZ_ecm240':0.0001783,
-        'wzp6_egamma_eZ_Zmumu_ecm240':0.10368,
-        'wzp6_egamma_eZ_Zee_ecm240':0.05198,
-        'wzp6_gammae_eZ_Zmumu_ecm240':0.10368,
-        'wzp6_gammae_eZ_Zee_ecm240':0.05198,
-        'wzp6_gaga_tautau_60_ecm240':0.836,
-        'wzp6_gaga_mumu_60_ecm240':1.5523,
-        'wzp6_gaga_ee_60_ecm240':0.873,
-        'wzp6_ee_nuenueZ_ecm240':0.033274,
-        'wzp6_ee_nunuH_Hbb_ecm240':0.0269,
-        'wzp6_ee_nunuH_Hcc_ecm240':0.001335,
-        'wzp6_ee_nunuH_Hss_ecm240':1.109e-05,
-        'wzp6_ee_nunuH_Hgg_ecm240':0.003782,
-        'wzp6_ee_nunuH_HWW_ecm240':0.00994,
-        'wzp6_ee_nunuH_HZZ_ecm240':0.001425,
-        'wzp6_ee_eeH_Hbb_ecm240':0.004171,
-        'wzp6_ee_eeH_Hcc_ecm240':0.000207,
-        'wzp6_ee_eeH_Hss_ecm240':1.718e-06,
-        'wzp6_ee_eeH_Hgg_ecm240':0.0005863,
-        'wzp6_ee_eeH_HWW_ecm240':0.001541,
-        'wzp6_ee_eeH_HZZ_ecm240':0.0001891,
-        'wzp6_ee_mumuH_Hbb_ecm240':0.00394,
-        'wzp6_ee_mumuH_Hcc_ecm240':0.0001956,
-        'wzp6_ee_mumuH_Hss_ecm240':1.624e-06,
-        'wzp6_ee_mumuH_Hgg_ecm240':0.0005538,
-        'wzp6_ee_mumuH_HWW_ecm240':0.001456,
-        'wzp6_ee_mumuH_HZZ_ecm240':0.0001786,
-        'wzp6_ee_bbH_Hbb_ecm240':0.01745,
-        'wzp6_ee_bbH_Hcc_ecm240':0.0008664,
-        'wzp6_ee_bbH_Hss_ecm240':7.193e-06,
-        'wzp6_ee_bbH_Hgg_ecm240':0.002454,
-        'wzp6_ee_bbH_HWW_ecm240':0.00645,
-        'wzp6_ee_bbH_HZZ_ecm240':0.0007915,
-        'wzp6_ee_ccH_Hbb_ecm240':0.01359,
-        'wzp6_ee_ccH_Hcc_ecm240':0.0006747,
-        'wzp6_ee_ccH_Hss_ecm240':5.607e-06,
-        'wzp6_ee_ccH_Hgg_ecm240':0.001911,
-        'wzp6_ee_ccH_HWW_ecm240':0.005023,
-        'wzp6_ee_ccH_HZZ_ecm240':0.0006164,
-        'wzp6_ee_ssH_Hbb_ecm240':0.01745,
-        'wzp6_ee_ssH_Hcc_ecm240':0.0008661,
-        'wzp6_ee_ssH_Hss_ecm240':7.19e-06,
-        'wzp6_ee_ssH_Hgg_ecm240':0.002453,
-        'wzp6_ee_ssH_HWW_ecm240':0.006447,
-        'wzp6_ee_ssH_HZZ_ecm240':0.0007912,
-        'wzp6_ee_qqH_Hbb_ecm240':0.03107,
-        'wzp6_ee_qqH_Hcc_ecm240':0.001542,
-        'wzp6_ee_qqH_Hss_ecm240':1.28e-05,
-        'wzp6_ee_qqH_Hgg_ecm240':0.004367,
-        'wzp6_ee_qqH_HWW_ecm240':0.01148,
-        'wzp6_ee_qqH_HZZ_ecm240':0.001409,
-        "wzp6_ee_bbH_Htautau_ecm240":0.00188,
-        "wzp6_ee_ccH_Htautau_ecm240":0.001464,
-        "wzp6_ee_qqH_Htautau_ecm240":0.003346,
-        "wzp6_ee_ssH_Htautau_ecm240":0.001879,
-        "wzp6_ee_eeH_Htautau_ecm240":0.0004491,
-        "wzp6_ee_mumuH_Htautau_ecm240":0.0004243,
-        "wzp6_ee_tautauH_Htautau_ecm240":0.0004235,
-        "wzp6_ee_nunuH_Htautau_ecm240":0.002897,
+xsec = {'p8_ee_WW_ecm365':10.7165,
+    'p8_ee_Zqq_ecm365':8.679,
+    'p8_ee_ZZ_ecm365':0.6428,
+    'p8_ee_Zbb_ecm365':4.056,
+    'p8_ee_Zcc_ecm365':4.506,
+    'p8_ee_Zss_ecm365':4.084,
+    'p8_ee_tt_ecm365':0.8,
+    
+    'wzp6_ee_tautau_ecm365':2.017,
+    'wzp6_ee_mumu_ecm365':2.287,
+    'wzp6_ee_ee_Mee_30_150_ecm365':1.53,
+
+    'wzp6_ee_tautauH_Htautau_ecm365':0.0002617,
+    'wzp6_ee_tautauH_Hbb_ecm365':0.00243,
+    'wzp6_ee_tautauH_Hcc_ecm365':0.0001206,
+    'wzp6_ee_tautauH_Hss_ecm365':8.345e-7,
+    'wzp6_ee_tautauH_Hgg_ecm365':0.0003416,
+    'wzp6_ee_tautauH_HWW_ecm365':0.0008979,
+    'wzp6_ee_tautauH_HZZ_ecm365':0.0001102,
+
+    'wzp6_egamma_eZ_Zmumu_ecm365':0.14,
+    'wzp6_egamma_eZ_Zee_ecm365':0.069932,
+    'wzp6_gammae_eZ_Zmumu_ecm365':0.14,
+    'wzp6_gammae_eZ_Zee_ecm365':0.0700717,
+
+    'wzp6_gaga_tautau_60_ecm365':1.537,
+    'wzp6_gaga_mumu_60_ecm365':2.843,
+    'wzp6_gaga_ee_60_ecm365':2.0063,
+
+    'wzp6_ee_nuenueZ_ecm365':0.12624,
+    'wzp6_ee_nunuH_Htautau_ecm365':0.003385,
+    'wzp6_ee_nunuH_Hbb_ecm365':0.03143,
+    'wzp6_ee_nunuH_Hcc_ecm365':0.00156,
+    'wzp6_ee_nunuH_Hss_ecm365':1.079e-5,
+    'wzp6_ee_nunuH_Hgg_ecm365':0.004418,
+    'wzp6_ee_nunuH_HWW_ecm365':0.01161,
+    'wzp6_ee_nunuH_HZZ_ecm365':0.001425,
+
+    'wzp6_ee_eeH_Htautau_ecm365':0.0004634,
+    'wzp6_ee_eeH_Hbb_ecm365':0.004303,
+    'wzp6_ee_eeH_Hcc_ecm365':0.0002136,
+    'wzp6_ee_eeH_Hss_ecm365':1.478e-6,
+    'wzp6_ee_eeH_Hgg_ecm365':0.0006049,
+    'wzp6_ee_eeH_HWW_ecm365':0.00159,
+    'wzp6_ee_eeH_HZZ_ecm365':0.0001951,
+
+    'wzp6_ee_mumuH_Htautau_ecm365':0.0002625,
+    'wzp6_ee_mumuH_Hbb_ecm365':0.002438,
+    'wzp6_ee_mumuH_Hcc_ecm365':0.000121,
+    'wzp6_ee_mumuH_Hss_ecm365':8.371e-7,
+    'wzp6_ee_mumuH_Hgg_ecm365':0.0003426,
+    'wzp6_ee_mumuH_HWW_ecm365':0.0009007,
+    'wzp6_ee_mumuH_HZZ_ecm365':0.0001105,
+
+    'wzp6_ee_bbH_Htautau_ecm365':0.001153,
+    'wzp6_ee_bbH_Hbb_ecm365':0.01071,
+    'wzp6_ee_bbH_Hcc_ecm365':0.0005316,
+    'wzp6_ee_bbH_Hss_ecm365':3.678e-6,
+    'wzp6_ee_bbH_Hgg_ecm365':0.001506,
+    'wzp6_ee_bbH_HWW_ecm365':0.003957,
+    'wzp6_ee_bbH_HZZ_ecm365':0.0004857,
+
+    'wzp6_ee_ccH_Htautau_ecm365':0.0009054,
+    'wzp6_ee_ccH_Hbb_ecm365':0.008407,
+    'wzp6_ee_ccH_Hcc_ecm365':0.0004173,
+    'wzp6_ee_ccH_Hss_ecm365':2.887e-6,
+    'wzp6_ee_ccH_Hgg_ecm365':0.001182,
+    'wzp6_ee_ccH_HWW_ecm365':0.003107,
+    'wzp6_ee_ccH_HZZ_ecm365':0.0003813,
+
+    'wzp6_ee_ssH_Htautau_ecm365':0.001163,
+    'wzp6_ee_ssH_Hbb_ecm365':0.0108,
+    'wzp6_ee_ssH_Hcc_ecm365':0.0005359,
+    'wzp6_ee_ssH_Hss_ecm365':3.708e-6,
+    'wzp6_ee_ssH_Hgg_ecm365':0.001518,
+    'wzp6_ee_ssH_HWW_ecm365':0.003989,
+    'wzp6_ee_ssH_HZZ_ecm365':0.0004896,
+
+    'wzp6_ee_qqH_Htautau_ecm365':0.00207,
+    'wzp6_ee_qqH_Hbb_ecm365':0.01922,
+    'wzp6_ee_qqH_Hcc_ecm365':0.000954,
+    'wzp6_ee_qqH_Hss_ecm365':6.599e-6,
+    'wzp6_ee_qqH_Hgg_ecm365':0.002701,
+    'wzp6_ee_qqH_HWW_ecm365':0.007101,
+    'wzp6_ee_qqH_HZZ_ecm365':0.0008715,
+
+    'wzp6_ee_nuenueH_Htautau_ecm365':0.002349,
+    'wzp6_ee_nuenueH_Hbb_ecm365':0.02181,
+    'wzp6_ee_nuenueH_Hcc_ecm365':0.001083,
+    'wzp6_ee_nuenueH_Hss_ecm365':7.49e-6,
+    'wzp6_ee_nuenueH_Hgg_ecm365':0.003066,
+    'wzp6_ee_nuenueH_HWW_ecm365':0.008059,
+    'wzp6_ee_nuenueH_HZZ_ecm365':0.000989,  
+
+    'wzp6_ee_numunumuH_Htautau_ecm365':0.0005184,
+    'wzp6_ee_numunumuH_Hbb_ecm365':0.004814,
+    'wzp6_ee_numunumuH_Hcc_ecm365':0.0002389,
+    'wzp6_ee_numunumuH_Hss_ecm365':1.653e-6,
+    'wzp6_ee_numunumuH_Hgg_ecm365':0.0006767,
+    'wzp6_ee_numunumuH_HWW_ecm365':0.001779,
+    'wzp6_ee_numunumuH_HZZ_ecm365':0.0002183,
 }
 
-path = "/ceph/awiedl/FCCee/HiggsCP/ktN-tag/stage2_241202_cut/NuNu/HH/"
+path = "/ceph/awiedl/FCCee/HiggsCP/ecm365/ktN-tag/stage2_280125/NuNu/HH/"
 
-output_file = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/BDT/output_NuNuHH.txt"
+output_file = "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm365/BDT/output_NuNuHH.txt"
 
 train_tree = True
 full_test = False
@@ -236,11 +309,14 @@ weight = {}
 N_bkg = 0
 N_bkg_gen = 0
 tot_weight_bkg = 0
-N_sig = 0
-N_sig_gen = 0
-tot_weight_sig = 0
+N_sig_VBF = 0
+N_sig_ZH = 0
+N_sig_VBF_gen = 0
+N_sig_ZH_gen = 0
+tot_weight_sig_VBF = 0
+tot_weight_sig_ZH = 0
 #get gen number of events for each signal and backgorund file
-for i in sigs+bkgs:
+for i in sigs_ZH+sigs_VBF+bkgs:
     files = glob.glob(path + i + '/chunk_*.root')
     N[i] = 0
     N_gen[i] = 0
@@ -265,38 +341,54 @@ for i in sigs+bkgs:
         tot_weight_bkg += weight[i]
     if N_bkg_gen!=0:
         eff_tot_bkg = N_bkg / N_bkg_gen
-    if i in sigs: 
-        N_sig += N[i]
-        N_sig_gen += N_gen[i]
-        tot_weight_sig += weight[i]
-    if N_sig_gen!=0:
-        eff_tot_sig = N_sig / N_sig_gen
+    if i in sigs_ZH: 
+        N_sig_ZH += N[i]
+        N_sig_ZH_gen += N_gen[i]
+        tot_weight_sig_ZH += weight[i]
+    if N_sig_ZH_gen!=0:
+        eff_tot_sig_ZH = N_sig_ZH / N_sig_ZH_gen
+    if i in sigs_VBF: 
+        N_sig_VBF += N[i]
+        N_sig_VBF_gen += N_gen[i]
+        tot_weight_sig_VBF += weight[i]
+    if N_sig_VBF_gen!=0:
+        eff_tot_sig_VBF = N_sig_VBF / N_sig_VBF_gen
 
 pprint.pprint(N)
 pprint.pprint(N_gen)
 pprint.pprint(eff)
 with open(output_file, "a") as file:
     file.write(f"Events of backgrounds: {N_bkg}\n")
-    file.write(f"Events of signals: {N_sig}\n")
+    file.write(f"Events of ZH signals: {N_sig_ZH}\n")
+    file.write(f"Events of VBF signals: {N_sig_VBF}\n")
     file.write(f"Weight of backgrounds: {tot_weight_bkg}\n")
-    file.write(f"Weight of signals: {tot_weight_sig}\n")
+    file.write(f"Weight of ZH signals: {tot_weight_sig_ZH}\n")
+    file.write(f"Weight of VBF signals: {tot_weight_sig_VBF}\n")
     file.write(f"Efficiency of backgrounds: {eff_tot_bkg}\n")
-    file.write(f"Efficiency of signals: {eff_tot_sig}\n\n")
+    file.write(f"Efficiency of ZH signals: {eff_tot_sig_ZH}\n\n")
+    file.write(f"Efficiency of VBF signals: {eff_tot_sig_VBF}\n\n")
 
 #minumum number between the events in the samples and the one we expect to have in the signal composition
 N_min = {}
-N_sig_new = N_sig
-for i in sigs:
-    N_min[i] = min(N[i], N_sig * weight[i] / tot_weight_sig) 
+N_sig_ZH_new = N_sig_ZH
+N_sig_VBF_new = N_sig_VBF
+for i in sigs_ZH:
+    N_min[i] = min(N[i], N_sig_ZH * weight[i] / tot_weight_sig_ZH) 
     if N_min[i]==N[i] and weight[i]>0 and N[i]>0:
-        N_sig_new = N_min[i] * tot_weight_sig / weight[i]
+        N_sig_ZH_new = N_min[i] * tot_weight_sig_ZH / weight[i]
+for i in sigs_VBF:
+    N_min[i] = min(N[i], N_sig_VBF * weight[i] / tot_weight_sig_VBF) 
+    if N_min[i]==N[i] and weight[i]>0 and N[i]>0:
+        N_sig_VBF_new = N_min[i] * tot_weight_sig_VBF / weight[i]
 
 with open(output_file, "a") as file:
-    file.write(f"Adjusted size of signal: {N_sig_new}\n\n")
+    file.write(f"Adjusted size of ZH signal: {N_sig_ZH_new}\n\n")
+    file.write(f"Adjusted size of VBF signal: {N_sig_VBF_new}\n\n")
 
 if train_tree == True:
     #upload signals into a dataframe
-    df_sig = pd.DataFrame()
+    df_sig_ZH = pd.DataFrame()
+    df_sig_VBF = pd.DataFrame()
     for q in sigs:
         prev = len(df_sig)
         target_events = int(N_sig_new * weight[q] / tot_weight_sig)
@@ -366,11 +458,13 @@ if train_tree == True:
     #print(f"Total size of bkg sample: {len(df_bkg)}\n")
     
     #set Signal and background labels
-    df_sig["label"] = 1
+    df_sig_VBF["label"] = 2
+    df_sig_ZH["label"] = 1
     df_bkg["label"] = 0
     
     #save some data for testing later
-    df_sig = df_sig.sample(frac=1, random_state=1)
+    df_sig_VBF = df_sig_VBF.sample(frac=1, random_state=1)
+    df_sig_ZH = df_sig_ZH.sample(frac=1, random_state=1)
     df_bkg = df_bkg.sample(frac=1, random_state=1)
     train_sig, test_sig = train_test_split(df_sig, test_size=0.3)
     train_bkg, test_bkg = train_test_split(df_bkg, test_size=0.3)
@@ -457,7 +551,7 @@ if train_tree == True:
         file.write(f"{feature_importances.to_string()}\n")
     
     #Write the model to a ROOT file for application elsewhere in FCCAnalyses
-    out = '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/BDT/models/' 
+    out = '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm365/BDT/models/' 
     
     print("Testing model")
     pred_test = bdt.predict_proba(x_test)
@@ -489,10 +583,10 @@ if train_tree == True:
     plt.tight_layout()
 
     # Save the figure
-    fig.savefig("/web/awiedl/public_html/ML/BDT/NuNuHH_ROC_ktN-tag_stage2_241202_cut.pdf")
+    fig.savefig("/web/awiedl/public_html/ML/BDT/ecm365/NuNuHH_ROC_ktN-tag_stage2_250212.pdf")
 
     #Write model to joblib file
-    joblib.dump(bdt, f"{out}/xgb_bdt_ktN-tag_stage2_241202_cut_NuNuHH.joblib")
+    joblib.dump(bdt, f"{out}/xgb_bdt_ktN-tag_stage2_250212_NuNuHH.joblib")
 
     #Also dump as json for ROOT interpretation
     #booster = bdt.get_booster()
@@ -500,9 +594,9 @@ if train_tree == True:
 
     # comment TMVA form output. TMVA Experimental only supports binary at the moment.
     print("Writing xgboost model to ROOT file")
-    ROOT.TMVA.Experimental.SaveXGBoost(bdt, "Htautau", f"{out}/xgb_bdt_ktN-tag_stage2_241202_cut_NuNuHH.root", num_inputs=len(vars_list))
+    ROOT.TMVA.Experimental.SaveXGBoost(bdt, "Htautau", f"{out}/xgb_bdt_ktN-tag_stage2_250212NuNuHH.root", num_inputs=len(vars_list))
 
-    bdt.save_model(f"{out}/xgb_bdt_ktN-tag_stage2_241202_cut_NuNuHH_model.json")
+    bdt.save_model(f"{out}/xgb_bdt_ktN-tag_stage2_250212NuNuHH_model.json")
     # ROC curve plotting accomplished in the plotting script and not here.
 
 true_pred = {}
@@ -510,7 +604,7 @@ false_pred = {}
 
 if full_test==True:
     bdt = xgb.XGBClassifier()
-    bdt.load_model("xgb_bdt_ktN-tag_stage2_241202_cut_NuNuHH_model.json")
+    bdt.load_model("xgb_bdt_ktN-tag_stage2_250212_NuNuHH_model.json")
     for q in bkgs:
         true_pred[q]=0
         false_pred[q]=0
