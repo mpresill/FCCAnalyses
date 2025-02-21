@@ -98,7 +98,7 @@ processList = {
 includePaths = ["functions.h"]
 
 ROOT.gInterpreter.ProcessLine('''TMVA::Experimental::RBDT<> bdt("Htautau", "/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/BDT/models/xgb_bdt_R5-tag_stage2_241202_cut_QQLH.root");
-                                computeModel = TMVA::Experimental::Compute<23, float>(bdt);''') #needs to be passed the number of variables
+                                computeModel = TMVA::Experimental::Compute<29, float>(bdt);''') #needs to be passed the number of variables
 
 #Mandatory: RDFanalysis class where the use defines the operations on the TTree
 class RDFanalysis():
