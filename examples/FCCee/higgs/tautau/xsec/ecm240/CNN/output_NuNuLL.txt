@@ -1,0 +1,802 @@
+Events of backgrounds: 50150001
+Events of signals: 33208
+Weight of backgrounds: 91094487.73157774
+Weight of signals: 853.0383932999999
+Efficiency of backgrounds: 0.0807150826989741
+Efficiency of signals: 0.015094545454545454
+
+Adjusted size of signal: 32717.308836727647
+
+Weight of wzp6_ee_mumuH_Htautau_ecm240: 5.5791207
+Relative weight of wzp6_ee_mumuH_Htautau_ecm240: 0.00654029261029745
+Requested size of wzp6_ee_mumuH_Htautau_ecm240: 217.19003700275775
+Events after stage2 of wzp6_ee_mumuH_Htautau_ecm240: 487
+Number of events in the dataframe of wzp6_ee_mumuH_Htautau_ecm240: 213
+
+Weight of wzp6_ee_qqH_Htautau_ecm240: 0.180684
+Relative weight of wzp6_ee_qqH_Htautau_ecm240: 0.0002118122717794911
+Requested size of wzp6_ee_qqH_Htautau_ecm240: 7.033861921253341
+Events after stage2 of wzp6_ee_qqH_Htautau_ecm240: 1
+Number of events in the dataframe of wzp6_ee_qqH_Htautau_ecm240: 1
+
+Weight of wzp6_ee_nunuH_Htautau_ecm240: 842.2100459999999
+Relative weight of wzp6_ee_nunuH_Htautau_ecm240: 0.9873061430938527
+Requested size of wzp6_ee_nunuH_Htautau_ecm240: 32786.46239986066
+Events after stage2 of wzp6_ee_nunuH_Htautau_ecm240: 32302
+Number of events in the dataframe of wzp6_ee_nunuH_Htautau_ecm240: 32302
+
+Weight of wzp6_ee_eeH_Htautau_ecm240: 5.0685426
+Relative weight of wzp6_ee_eeH_Htautau_ecm240: 0.005941752024070357
+Requested size of wzp6_ee_eeH_Htautau_ecm240: 197.3137012153284
+Events after stage2 of wzp6_ee_eeH_Htautau_ecm240: 418
+Number of events in the dataframe of wzp6_ee_eeH_Htautau_ecm240: 194
+
+Total size of signal sample: 32710
+Weight of p8_ee_WW_ecm240: 7051388.0250649415
+Relative weight of p8_ee_WW_ecm240: 0.07740740631686532
+Requested size of p8_ee_WW_ecm240: 2531.996260624665
+Events after stage2 of p8_ee_WW_ecm240: 14829768
+Number of events in the dataframe of p8_ee_WW_ecm240: 2532
+
+Weight of p8_ee_ZZ_ecm240: 299170.34756660194
+Relative weight of p8_ee_ZZ_ecm240: 0.003284176189103208
+Requested size of p8_ee_ZZ_ecm240: 107.42540314556594
+Events after stage2 of p8_ee_ZZ_ecm240: 1089744
+Number of events in the dataframe of p8_ee_ZZ_ecm240: 107
+
+Weight of wzp6_ee_tautau_ecm240: 1408238.9705836575
+Relative weight of wzp6_ee_tautau_ecm240: 0.01545910192429233
+Requested size of wzp6_ee_tautau_ecm240: 505.6672239436021
+Events after stage2 of wzp6_ee_tautau_ecm240: 1435770
+Number of events in the dataframe of wzp6_ee_tautau_ecm240: 505
+
+Weight of wzp6_ee_mumu_ecm240: 28841443.035839997
+Relative weight of wzp6_ee_mumu_ecm240: 0.316610189639852
+Requested size of wzp6_ee_mumu_ecm240: 10356.319303119559
+Events after stage2 of wzp6_ee_mumu_ecm240: 5050121
+Number of events in the dataframe of wzp6_ee_mumu_ecm240: 10358
+
+Weight of wzp6_ee_ee_Mee_30_150_ecm240: 47090758.1958
+Relative weight of wzp6_ee_ee_Mee_30_150_ecm240: 0.5169441024198885
+Requested size of wzp6_ee_ee_Mee_30_150_ecm240: 16909.241590154554
+Events after stage2 of wzp6_ee_ee_Mee_30_150_ecm240: 5250157
+Number of events in the dataframe of wzp6_ee_ee_Mee_30_150_ecm240: 16913
+
+Weight of wzp6_egamma_eZ_Zmumu_ecm240: 638969.9696640001
+Relative weight of wzp6_egamma_eZ_Zmumu_ecm240: 0.00701436481586912
+Requested size of wzp6_egamma_eZ_Zmumu_ecm240: 229.4398731270789
+Events after stage2 of wzp6_egamma_eZ_Zmumu_ecm240: 3423836
+Number of events in the dataframe of wzp6_egamma_eZ_Zmumu_ecm240: 229
+
+Weight of wzp6_egamma_eZ_Zee_ecm240: 284361.67364399997
+Relative weight of wzp6_egamma_eZ_Zee_ecm240: 0.0031216123030617417
+Requested size of wzp6_egamma_eZ_Zee_ecm240: 102.10793843314957
+Events after stage2 of wzp6_egamma_eZ_Zee_ecm240: 3039221
+Number of events in the dataframe of wzp6_egamma_eZ_Zee_ecm240: 102
+
+Weight of wzp6_gammae_eZ_Zmumu_ecm240: 639318.0367542857
+Relative weight of wzp6_gammae_eZ_Zmumu_ecm240: 0.007018185761559173
+Requested size of wzp6_gammae_eZ_Zmumu_ecm240: 229.56485626060055
+Events after stage2 of wzp6_gammae_eZ_Zmumu_ecm240: 3197321
+Number of events in the dataframe of wzp6_gammae_eZ_Zmumu_ecm240: 229
+
+Weight of wzp6_gammae_eZ_Zee_ecm240: 284286.354624
+Relative weight of wzp6_gammae_eZ_Zee_ecm240: 0.003120785480035722
+Requested size of wzp6_gammae_eZ_Zee_ecm240: 102.08089305196847
+Events after stage2 of wzp6_gammae_eZ_Zee_ecm240: 3038416
+Number of events in the dataframe of wzp6_gammae_eZ_Zee_ecm240: 102
+
+Weight of wzp6_gaga_tautau_60_ecm240: 35343.06345400593
+Relative weight of wzp6_gaga_tautau_60_ecm240: 0.00038798246012589766
+Requested size of wzp6_gaga_tautau_60_ecm240: 12.690906270718111
+Events after stage2 of wzp6_gaga_tautau_60_ecm240: 131918
+Number of events in the dataframe of wzp6_gaga_tautau_60_ecm240: 12
+
+Weight of wzp6_gaga_mumu_60_ecm240: 3406507.1841663723
+Relative weight of wzp6_gaga_mumu_60_ecm240: 0.037395316324782546
+Requested size of wzp6_gaga_mumu_60_ecm240: 1223.200796983637
+Events after stage2 of wzp6_gaga_mumu_60_ecm240: 6888261
+Number of events in the dataframe of wzp6_gaga_mumu_60_ecm240: 1223
+
+Weight of wzp6_gaga_ee_60_ecm240: 1094113.02096
+Relative weight of wzp6_gaga_ee_60_ecm240: 0.012010748929001638
+Requested size of wzp6_gaga_ee_60_ecm240: 392.87159746764354
+Events after stage2 of wzp6_gaga_ee_60_ecm240: 2610999
+Number of events in the dataframe of wzp6_gaga_ee_60_ecm240: 392
+
+Weight of wzp6_ee_nuenueZ_ecm240: 18014.1376572
+Relative weight of wzp6_ee_nuenueZ_ecm240: 0.00019775222525298238
+Requested size of wzp6_ee_nuenueZ_ecm240: 6.468475288025053
+Events after stage2 of wzp6_ee_nuenueZ_ecm240: 100257
+Number of events in the dataframe of wzp6_ee_nuenueZ_ecm240: 6
+
+Total size of bkg sample: 32710
+
+Normalised sample size 
+Training: 45794
+Test: 19626
+
+Effective input shape for training 
+X: (45794, 31)
+Y: (45794,)
+
+{'n_estimators': 200, 'learning_rate': 0.3, 'max_depth': 2}
+Feature importances 
+                                importance
+RecoH_e                           0.739598
+RecoEmiss_pt                      0.137176
+RecoEmiss_e                       0.037744
+RecoEmiss_costheta                0.024471
+Tau_cos                           0.018838
+Tau_DR                            0.010926
+RecoEmiss_p                       0.008145
+RecoH_pt                          0.002172
+TauSub_mass                       0.002024
+TauLead_mass                      0.001974
+Visible_mass                      0.001744
+TauSub_pt                         0.001689
+TauSub_p                          0.001684
+RecoH_p                           0.001453
+TauLead_p                         0.001254
+TauLead_pt                        0.001181
+TauLead_eta                       0.001113
+Tau_DEta                          0.000972
+TauSub_pz                         0.000961
+Tau_DPhi                          0.000950
+RecoH_pz                          0.000890
+TauLead_pz                        0.000810
+RecoEmiss_pz                      0.000779
+RecoH_eta                         0.000737
+TauSub_eta                        0.000717
+n_TauSub_charged_constituents     0.000000
+n_TauSub_neutral_constituents     0.000000
+n_TauLead_neutral_constituents    0.000000
+n_TauLead_charged_constituents    0.000000
+TauLead_e                         0.000000
+TauSub_e                          0.000000
+Events of backgrounds: 35015045
+Events of signals: 33206
+Weight of backgrounds: 47373498.00561386
+Weight of signals: 853.0154810999999
+Efficiency of backgrounds: 0.0563920812181626
+Efficiency of signals: 0.015093636363636363
+
+Adjusted size of signal: 32716.430065585086
+
+Weight of wzp6_ee_mumuH_Htautau_ecm240: 5.5562085
+Relative weight of wzp6_ee_mumuH_Htautau_ecm240: 0.006513608044762602
+Requested size of wzp6_ee_mumuH_Htautau_ecm240: 216.29086873438695
+Events after stage2 of wzp6_ee_mumuH_Htautau_ecm240: 485
+Number of events in the dataframe of wzp6_ee_mumuH_Htautau_ecm240: 213
+
+Weight of wzp6_ee_qqH_Htautau_ecm240: 0.180684
+Relative weight of wzp6_ee_qqH_Htautau_ecm240: 0.00021181796110781047
+Requested size of wzp6_ee_qqH_Htautau_ecm240: 7.033627216545955
+Events after stage2 of wzp6_ee_qqH_Htautau_ecm240: 1
+Number of events in the dataframe of wzp6_ee_qqH_Htautau_ecm240: 1
+
+Weight of wzp6_ee_nunuH_Htautau_ecm240: 842.2100459999999
+Relative weight of wzp6_ee_nunuH_Htautau_ecm240: 0.9873326623731777
+Requested size of wzp6_ee_nunuH_Htautau_ecm240: 32785.36838676374
+Events after stage2 of wzp6_ee_nunuH_Htautau_ecm240: 32302
+Number of events in the dataframe of wzp6_ee_nunuH_Htautau_ecm240: 32302
+
+Weight of wzp6_ee_eeH_Htautau_ecm240: 5.0685426
+Relative weight of wzp6_ee_eeH_Htautau_ecm240: 0.00594191162095194
+Requested size of wzp6_ee_eeH_Htautau_ecm240: 197.30711728533012
+Events after stage2 of wzp6_ee_eeH_Htautau_ecm240: 418
+Number of events in the dataframe of wzp6_ee_eeH_Htautau_ecm240: 194
+
+Total size of signal sample: 32710
+Weight of p8_ee_WW_ecm240: 3301294.699190482
+Relative weight of p8_ee_WW_ecm240: 0.06968653019456725
+Requested size of p8_ee_WW_ecm240: 2279.4464026642945
+Events after stage2 of p8_ee_WW_ecm240: 6942950
+Number of events in the dataframe of p8_ee_WW_ecm240: 2279
+
+Weight of p8_ee_ZZ_ecm240: 295412.54415819445
+Relative weight of p8_ee_ZZ_ecm240: 0.006235818687553691
+Requested size of p8_ee_ZZ_ecm240: 203.97362926988126
+Events after stage2 of p8_ee_ZZ_ecm240: 1076056
+Number of events in the dataframe of p8_ee_ZZ_ecm240: 204
+
+Weight of wzp6_ee_tautau_ecm240: 1233101.8951284047
+Relative weight of wzp6_ee_tautau_ecm240: 0.026029361289349573
+Requested size of wzp6_ee_tautau_ecm240: 851.4204077746246
+Events after stage2 of wzp6_ee_tautau_ecm240: 1257209
+Number of events in the dataframe of wzp6_ee_tautau_ecm240: 851
+
+Weight of wzp6_ee_mumu_ecm240: 11731932.475200001
+Relative weight of wzp6_ee_mumu_ecm240: 0.24764758713426105
+Requested size of wzp6_ee_mumu_ecm240: 8100.552575161679
+Events after stage2 of wzp6_ee_mumu_ecm240: 2054255
+Number of events in the dataframe of wzp6_ee_mumu_ecm240: 8102
+
+Weight of wzp6_ee_ee_Mee_30_150_ecm240: 24760513.0476
+Relative weight of wzp6_ee_ee_Mee_30_150_ecm240: 0.5226659227204592
+Requested size of wzp6_ee_ee_Mee_30_150_ecm240: 17096.40233218622
+Events after stage2 of wzp6_ee_ee_Mee_30_150_ecm240: 2760554
+Number of events in the dataframe of wzp6_ee_ee_Mee_30_150_ecm240: 17099
+
+Weight of wzp6_egamma_eZ_Zmumu_ecm240: 576709.4039040001
+Relative weight of wzp6_egamma_eZ_Zmumu_ecm240: 0.012173671529082752
+Requested size of wzp6_egamma_eZ_Zmumu_ecm240: 398.2007957162968
+Events after stage2 of wzp6_egamma_eZ_Zmumu_ecm240: 3090221
+Number of events in the dataframe of wzp6_egamma_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_egamma_eZ_Zee_ecm240: 258197.34311999998
+Relative weight of wzp6_egamma_eZ_Zee_ecm240: 0.005450248640904732
+Requested size of wzp6_egamma_eZ_Zee_ecm240: 178.27763304399377
+Events after stage2 of wzp6_egamma_eZ_Zee_ecm240: 2759580
+Number of events in the dataframe of wzp6_egamma_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gammae_eZ_Zmumu_ecm240: 577063.6695771427
+Relative weight of wzp6_gammae_eZ_Zmumu_ecm240: 0.012181149669563336
+Requested size of wzp6_gammae_eZ_Zmumu_ecm240: 398.4454056914167
+Events after stage2 of wzp6_gammae_eZ_Zmumu_ecm240: 2885978
+Number of events in the dataframe of wzp6_gammae_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_gammae_eZ_Zee_ecm240: 257954.45097599996
+Relative weight of wzp6_gammae_eZ_Zee_ecm240: 0.0054451214673957955
+Requested size of wzp6_gammae_eZ_Zee_ecm240: 178.1099231985165
+Events after stage2 of wzp6_gammae_eZ_Zee_ecm240: 2756984
+Number of events in the dataframe of wzp6_gammae_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gaga_tautau_60_ecm240: 35265.09963204747
+Relative weight of wzp6_gaga_tautau_60_ecm240: 0.00074440565119064
+Requested size of wzp6_gaga_tautau_60_ecm240: 24.349508850445833
+Events after stage2 of wzp6_gaga_tautau_60_ecm240: 131627
+Number of events in the dataframe of wzp6_gaga_tautau_60_ecm240: 24
+
+Weight of wzp6_gaga_mumu_60_ecm240: 3258516.6717769913
+Relative weight of wzp6_gaga_mumu_60_ecm240: 0.06878353528782802
+Requested size of wzp6_gaga_mumu_60_ecm240: 2249.9094392648544
+Events after stage2 of wzp6_gaga_mumu_60_ecm240: 6589011
+Number of events in the dataframe of wzp6_gaga_mumu_60_ecm240: 2250
+
+Weight of wzp6_gaga_ee_60_ecm240: 1066950.84816
+Relative weight of wzp6_gaga_ee_60_ecm240: 0.02252210398382581
+Requested size of wzp6_gaga_ee_60_ecm240: 736.6980213109422
+Events after stage2 of wzp6_gaga_ee_60_ecm240: 2546179
+Number of events in the dataframe of wzp6_gaga_ee_60_ecm240: 736
+
+Weight of wzp6_ee_nuenueZ_ecm240: 18010.184706
+Relative weight of wzp6_ee_nuenueZ_ecm240: 0.0003801742633373992
+Requested size of wzp6_ee_nuenueZ_ecm240: 12.435500153766329
+Events after stage2 of wzp6_ee_nuenueZ_ecm240: 100235
+Number of events in the dataframe of wzp6_ee_nuenueZ_ecm240: 12
+
+Weight of wzp6_ee_nunuH_HWW_ecm240: 2268.2583
+Relative weight of wzp6_ee_nunuH_HWW_ecm240: 4.788032118150124e-05
+Requested size of wzp6_ee_nunuH_HWW_ecm240: 1.5661653058469054
+Events after stage2 of wzp6_ee_nunuH_HWW_ecm240: 25355
+Number of events in the dataframe of wzp6_ee_nunuH_HWW_ecm240: 1
+
+Total size of bkg sample: 32710
+
+Normalised sample size 
+Training: 45794
+Test: 19626
+
+Effective input shape for training 
+X: (45794, 31)
+Y: (45794,)
+
+{'n_estimators': 200, 'learning_rate': 0.3, 'max_depth': 2}
+Feature importances 
+                                importance
+RecoEmiss_costheta                0.510761
+RecoH_e                           0.107771
+RecoEmiss_pt                      0.106984
+RecoH_pt                          0.094068
+Tau_cos                           0.052446
+RecoEmiss_e                       0.033036
+Tau_DR                            0.029383
+RecoEmiss_p                       0.028046
+TauSub_p                          0.005007
+TauLead_mass                      0.004044
+TauSub_mass                       0.003107
+Visible_mass                      0.002908
+RecoH_p                           0.002815
+TauSub_e                          0.002373
+Tau_DPhi                          0.001913
+TauSub_pt                         0.001900
+RecoEmiss_pz                      0.001697
+TauLead_pt                        0.001687
+TauLead_eta                       0.001668
+Tau_DEta                          0.001578
+RecoH_eta                         0.001453
+TauSub_eta                        0.001217
+TauLead_pz                        0.001123
+TauSub_pz                         0.001102
+RecoH_pz                          0.000980
+TauLead_p                         0.000933
+n_TauLead_neutral_constituents    0.000000
+n_TauLead_charged_constituents    0.000000
+TauLead_e                         0.000000
+n_TauSub_charged_constituents     0.000000
+n_TauSub_neutral_constituents     0.000000
+Events of backgrounds: 35015045
+Events of signals: 33206
+Weight of backgrounds: 47373498.00561386
+Weight of signals: 853.0154810999999
+Efficiency of backgrounds: 0.0563920812181626
+Efficiency of signals: 0.015093636363636363
+
+Adjusted size of signal: 32716.430065585086
+
+Weight of wzp6_ee_mumuH_Htautau_ecm240: 5.5562085
+Relative weight of wzp6_ee_mumuH_Htautau_ecm240: 0.006513608044762602
+Requested size of wzp6_ee_mumuH_Htautau_ecm240: 216.29086873438695
+Events after stage2 of wzp6_ee_mumuH_Htautau_ecm240: 485
+Number of events in the dataframe of wzp6_ee_mumuH_Htautau_ecm240: 213
+
+Weight of wzp6_ee_qqH_Htautau_ecm240: 0.180684
+Relative weight of wzp6_ee_qqH_Htautau_ecm240: 0.00021181796110781047
+Requested size of wzp6_ee_qqH_Htautau_ecm240: 7.033627216545955
+Events after stage2 of wzp6_ee_qqH_Htautau_ecm240: 1
+Number of events in the dataframe of wzp6_ee_qqH_Htautau_ecm240: 1
+
+Weight of wzp6_ee_nunuH_Htautau_ecm240: 842.2100459999999
+Relative weight of wzp6_ee_nunuH_Htautau_ecm240: 0.9873326623731777
+Requested size of wzp6_ee_nunuH_Htautau_ecm240: 32785.36838676374
+Events after stage2 of wzp6_ee_nunuH_Htautau_ecm240: 32302
+Number of events in the dataframe of wzp6_ee_nunuH_Htautau_ecm240: 32302
+
+Weight of wzp6_ee_eeH_Htautau_ecm240: 5.0685426
+Relative weight of wzp6_ee_eeH_Htautau_ecm240: 0.00594191162095194
+Requested size of wzp6_ee_eeH_Htautau_ecm240: 197.30711728533012
+Events after stage2 of wzp6_ee_eeH_Htautau_ecm240: 418
+Number of events in the dataframe of wzp6_ee_eeH_Htautau_ecm240: 194
+
+Total size of signal sample: 32710
+Weight of p8_ee_WW_ecm240: 3301294.699190482
+Relative weight of p8_ee_WW_ecm240: 0.06968653019456725
+Requested size of p8_ee_WW_ecm240: 2279.4464026642945
+Events after stage2 of p8_ee_WW_ecm240: 6942950
+Number of events in the dataframe of p8_ee_WW_ecm240: 2279
+
+Weight of p8_ee_ZZ_ecm240: 295412.54415819445
+Relative weight of p8_ee_ZZ_ecm240: 0.006235818687553691
+Requested size of p8_ee_ZZ_ecm240: 203.97362926988126
+Events after stage2 of p8_ee_ZZ_ecm240: 1076056
+Number of events in the dataframe of p8_ee_ZZ_ecm240: 204
+
+Weight of wzp6_ee_tautau_ecm240: 1233101.8951284047
+Relative weight of wzp6_ee_tautau_ecm240: 0.026029361289349573
+Requested size of wzp6_ee_tautau_ecm240: 851.4204077746246
+Events after stage2 of wzp6_ee_tautau_ecm240: 1257209
+Number of events in the dataframe of wzp6_ee_tautau_ecm240: 851
+
+Weight of wzp6_ee_mumu_ecm240: 11731932.475200001
+Relative weight of wzp6_ee_mumu_ecm240: 0.24764758713426105
+Requested size of wzp6_ee_mumu_ecm240: 8100.552575161679
+Events after stage2 of wzp6_ee_mumu_ecm240: 2054255
+Number of events in the dataframe of wzp6_ee_mumu_ecm240: 8102
+
+Weight of wzp6_ee_ee_Mee_30_150_ecm240: 24760513.0476
+Relative weight of wzp6_ee_ee_Mee_30_150_ecm240: 0.5226659227204592
+Requested size of wzp6_ee_ee_Mee_30_150_ecm240: 17096.40233218622
+Events after stage2 of wzp6_ee_ee_Mee_30_150_ecm240: 2760554
+Number of events in the dataframe of wzp6_ee_ee_Mee_30_150_ecm240: 17099
+
+Weight of wzp6_egamma_eZ_Zmumu_ecm240: 576709.4039040001
+Relative weight of wzp6_egamma_eZ_Zmumu_ecm240: 0.012173671529082752
+Requested size of wzp6_egamma_eZ_Zmumu_ecm240: 398.2007957162968
+Events after stage2 of wzp6_egamma_eZ_Zmumu_ecm240: 3090221
+Number of events in the dataframe of wzp6_egamma_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_egamma_eZ_Zee_ecm240: 258197.34311999998
+Relative weight of wzp6_egamma_eZ_Zee_ecm240: 0.005450248640904732
+Requested size of wzp6_egamma_eZ_Zee_ecm240: 178.27763304399377
+Events after stage2 of wzp6_egamma_eZ_Zee_ecm240: 2759580
+Number of events in the dataframe of wzp6_egamma_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gammae_eZ_Zmumu_ecm240: 577063.6695771427
+Relative weight of wzp6_gammae_eZ_Zmumu_ecm240: 0.012181149669563336
+Requested size of wzp6_gammae_eZ_Zmumu_ecm240: 398.4454056914167
+Events after stage2 of wzp6_gammae_eZ_Zmumu_ecm240: 2885978
+Number of events in the dataframe of wzp6_gammae_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_gammae_eZ_Zee_ecm240: 257954.45097599996
+Relative weight of wzp6_gammae_eZ_Zee_ecm240: 0.0054451214673957955
+Requested size of wzp6_gammae_eZ_Zee_ecm240: 178.1099231985165
+Events after stage2 of wzp6_gammae_eZ_Zee_ecm240: 2756984
+Number of events in the dataframe of wzp6_gammae_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gaga_tautau_60_ecm240: 35265.09963204747
+Relative weight of wzp6_gaga_tautau_60_ecm240: 0.00074440565119064
+Requested size of wzp6_gaga_tautau_60_ecm240: 24.349508850445833
+Events after stage2 of wzp6_gaga_tautau_60_ecm240: 131627
+Number of events in the dataframe of wzp6_gaga_tautau_60_ecm240: 24
+
+Weight of wzp6_gaga_mumu_60_ecm240: 3258516.6717769913
+Relative weight of wzp6_gaga_mumu_60_ecm240: 0.06878353528782802
+Requested size of wzp6_gaga_mumu_60_ecm240: 2249.9094392648544
+Events after stage2 of wzp6_gaga_mumu_60_ecm240: 6589011
+Number of events in the dataframe of wzp6_gaga_mumu_60_ecm240: 2250
+
+Weight of wzp6_gaga_ee_60_ecm240: 1066950.84816
+Relative weight of wzp6_gaga_ee_60_ecm240: 0.02252210398382581
+Requested size of wzp6_gaga_ee_60_ecm240: 736.6980213109422
+Events after stage2 of wzp6_gaga_ee_60_ecm240: 2546179
+Number of events in the dataframe of wzp6_gaga_ee_60_ecm240: 736
+
+Weight of wzp6_ee_nuenueZ_ecm240: 18010.184706
+Relative weight of wzp6_ee_nuenueZ_ecm240: 0.0003801742633373992
+Requested size of wzp6_ee_nuenueZ_ecm240: 12.435500153766329
+Events after stage2 of wzp6_ee_nuenueZ_ecm240: 100235
+Number of events in the dataframe of wzp6_ee_nuenueZ_ecm240: 12
+
+Weight of wzp6_ee_nunuH_HWW_ecm240: 2268.2583
+Relative weight of wzp6_ee_nunuH_HWW_ecm240: 4.788032118150124e-05
+Requested size of wzp6_ee_nunuH_HWW_ecm240: 1.5661653058469054
+Events after stage2 of wzp6_ee_nunuH_HWW_ecm240: 25355
+Number of events in the dataframe of wzp6_ee_nunuH_HWW_ecm240: 1
+
+Total size of bkg sample: 32710
+
+Normalised sample size 
+Training: 45794
+Test: 19626
+
+Effective input shape for training 
+X: (45794, 33)
+Y: (45794,)
+
+{'n_estimators': 200, 'learning_rate': 0.3, 'max_depth': 2}
+Feature importances 
+                                importance
+RecoEmiss_costheta                0.523039
+RecoEmiss_pt                      0.154179
+RecoH_e                           0.141029
+Tau_cos                           0.049934
+RecoEmiss_p                       0.034621
+Tau_DR                            0.032290
+RecoH_pt                          0.012472
+RecoEmiss_e                       0.009060
+TauSub_p                          0.006861
+TauSub_mass                       0.004565
+TauLead_mass                      0.003499
+Visible_mass                      0.003002
+TauLead_pt                        0.002750
+TauSub_pt                         0.002384
+RecoH_p                           0.002275
+TauLead_pz                        0.002075
+Tau_DEta                          0.001944
+Tau_DPhi                          0.001866
+RecoH_eta                         0.001841
+TauLead_p                         0.001696
+RecoEmiss_pz                      0.001590
+RecoH_pz                          0.001567
+TauSub_e                          0.001506
+TauSub_eta                        0.001423
+TauSub_pz                         0.001373
+TauLead_eta                       0.001158
+n_TauLead_neutral_constituents    0.000000
+TauSub_type                       0.000000
+n_TauSub_charged_constituents     0.000000
+n_TauSub_neutral_constituents     0.000000
+n_TauLead_charged_constituents    0.000000
+TauLead_e                         0.000000
+TauLead_type                      0.000000
+Events of backgrounds: 35015045
+Events of signals: 33206
+Weight of backgrounds: 47373498.00561386
+Weight of signals: 853.0154810999999
+Efficiency of backgrounds: 0.0563920812181626
+Efficiency of signals: 0.015093636363636363
+
+Adjusted size of signal: 32716.430065585086
+
+Weight of wzp6_ee_mumuH_Htautau_ecm240: 5.5562085
+Relative weight of wzp6_ee_mumuH_Htautau_ecm240: 0.006513608044762602
+Requested size of wzp6_ee_mumuH_Htautau_ecm240: 216.29086873438695
+Events after stage2 of wzp6_ee_mumuH_Htautau_ecm240: 485
+Number of events in the dataframe of wzp6_ee_mumuH_Htautau_ecm240: 213
+
+Weight of wzp6_ee_qqH_Htautau_ecm240: 0.180684
+Relative weight of wzp6_ee_qqH_Htautau_ecm240: 0.00021181796110781047
+Requested size of wzp6_ee_qqH_Htautau_ecm240: 7.033627216545955
+Events after stage2 of wzp6_ee_qqH_Htautau_ecm240: 1
+Number of events in the dataframe of wzp6_ee_qqH_Htautau_ecm240: 1
+
+Weight of wzp6_ee_nunuH_Htautau_ecm240: 842.2100459999999
+Relative weight of wzp6_ee_nunuH_Htautau_ecm240: 0.9873326623731777
+Requested size of wzp6_ee_nunuH_Htautau_ecm240: 32785.36838676374
+Events after stage2 of wzp6_ee_nunuH_Htautau_ecm240: 32302
+Number of events in the dataframe of wzp6_ee_nunuH_Htautau_ecm240: 32302
+
+Weight of wzp6_ee_eeH_Htautau_ecm240: 5.0685426
+Relative weight of wzp6_ee_eeH_Htautau_ecm240: 0.00594191162095194
+Requested size of wzp6_ee_eeH_Htautau_ecm240: 197.30711728533012
+Events after stage2 of wzp6_ee_eeH_Htautau_ecm240: 418
+Number of events in the dataframe of wzp6_ee_eeH_Htautau_ecm240: 194
+
+Total size of signal sample: 32710
+Weight of p8_ee_WW_ecm240: 3301294.699190482
+Relative weight of p8_ee_WW_ecm240: 0.06968653019456725
+Requested size of p8_ee_WW_ecm240: 2279.4464026642945
+Events after stage2 of p8_ee_WW_ecm240: 6942950
+Number of events in the dataframe of p8_ee_WW_ecm240: 2279
+
+Weight of p8_ee_ZZ_ecm240: 295412.54415819445
+Relative weight of p8_ee_ZZ_ecm240: 0.006235818687553691
+Requested size of p8_ee_ZZ_ecm240: 203.97362926988126
+Events after stage2 of p8_ee_ZZ_ecm240: 1076056
+Number of events in the dataframe of p8_ee_ZZ_ecm240: 204
+
+Weight of wzp6_ee_tautau_ecm240: 1233101.8951284047
+Relative weight of wzp6_ee_tautau_ecm240: 0.026029361289349573
+Requested size of wzp6_ee_tautau_ecm240: 851.4204077746246
+Events after stage2 of wzp6_ee_tautau_ecm240: 1257209
+Number of events in the dataframe of wzp6_ee_tautau_ecm240: 851
+
+Weight of wzp6_ee_mumu_ecm240: 11731932.475200001
+Relative weight of wzp6_ee_mumu_ecm240: 0.24764758713426105
+Requested size of wzp6_ee_mumu_ecm240: 8100.552575161679
+Events after stage2 of wzp6_ee_mumu_ecm240: 2054255
+Number of events in the dataframe of wzp6_ee_mumu_ecm240: 8102
+
+Weight of wzp6_ee_ee_Mee_30_150_ecm240: 24760513.0476
+Relative weight of wzp6_ee_ee_Mee_30_150_ecm240: 0.5226659227204592
+Requested size of wzp6_ee_ee_Mee_30_150_ecm240: 17096.40233218622
+Events after stage2 of wzp6_ee_ee_Mee_30_150_ecm240: 2760554
+Number of events in the dataframe of wzp6_ee_ee_Mee_30_150_ecm240: 17099
+
+Weight of wzp6_egamma_eZ_Zmumu_ecm240: 576709.4039040001
+Relative weight of wzp6_egamma_eZ_Zmumu_ecm240: 0.012173671529082752
+Requested size of wzp6_egamma_eZ_Zmumu_ecm240: 398.2007957162968
+Events after stage2 of wzp6_egamma_eZ_Zmumu_ecm240: 3090221
+Number of events in the dataframe of wzp6_egamma_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_egamma_eZ_Zee_ecm240: 258197.34311999998
+Relative weight of wzp6_egamma_eZ_Zee_ecm240: 0.005450248640904732
+Requested size of wzp6_egamma_eZ_Zee_ecm240: 178.27763304399377
+Events after stage2 of wzp6_egamma_eZ_Zee_ecm240: 2759580
+Number of events in the dataframe of wzp6_egamma_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gammae_eZ_Zmumu_ecm240: 577063.6695771427
+Relative weight of wzp6_gammae_eZ_Zmumu_ecm240: 0.012181149669563336
+Requested size of wzp6_gammae_eZ_Zmumu_ecm240: 398.4454056914167
+Events after stage2 of wzp6_gammae_eZ_Zmumu_ecm240: 2885978
+Number of events in the dataframe of wzp6_gammae_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_gammae_eZ_Zee_ecm240: 257954.45097599996
+Relative weight of wzp6_gammae_eZ_Zee_ecm240: 0.0054451214673957955
+Requested size of wzp6_gammae_eZ_Zee_ecm240: 178.1099231985165
+Events after stage2 of wzp6_gammae_eZ_Zee_ecm240: 2756984
+Number of events in the dataframe of wzp6_gammae_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gaga_tautau_60_ecm240: 35265.09963204747
+Relative weight of wzp6_gaga_tautau_60_ecm240: 0.00074440565119064
+Requested size of wzp6_gaga_tautau_60_ecm240: 24.349508850445833
+Events after stage2 of wzp6_gaga_tautau_60_ecm240: 131627
+Number of events in the dataframe of wzp6_gaga_tautau_60_ecm240: 24
+
+Weight of wzp6_gaga_mumu_60_ecm240: 3258516.6717769913
+Relative weight of wzp6_gaga_mumu_60_ecm240: 0.06878353528782802
+Requested size of wzp6_gaga_mumu_60_ecm240: 2249.9094392648544
+Events after stage2 of wzp6_gaga_mumu_60_ecm240: 6589011
+Number of events in the dataframe of wzp6_gaga_mumu_60_ecm240: 2250
+
+Weight of wzp6_gaga_ee_60_ecm240: 1066950.84816
+Relative weight of wzp6_gaga_ee_60_ecm240: 0.02252210398382581
+Requested size of wzp6_gaga_ee_60_ecm240: 736.6980213109422
+Events after stage2 of wzp6_gaga_ee_60_ecm240: 2546179
+Number of events in the dataframe of wzp6_gaga_ee_60_ecm240: 736
+
+Weight of wzp6_ee_nuenueZ_ecm240: 18010.184706
+Relative weight of wzp6_ee_nuenueZ_ecm240: 0.0003801742633373992
+Requested size of wzp6_ee_nuenueZ_ecm240: 12.435500153766329
+Events after stage2 of wzp6_ee_nuenueZ_ecm240: 100235
+Number of events in the dataframe of wzp6_ee_nuenueZ_ecm240: 12
+
+Weight of wzp6_ee_nunuH_HWW_ecm240: 2268.2583
+Relative weight of wzp6_ee_nunuH_HWW_ecm240: 4.788032118150124e-05
+Requested size of wzp6_ee_nunuH_HWW_ecm240: 1.5661653058469054
+Events after stage2 of wzp6_ee_nunuH_HWW_ecm240: 25355
+Number of events in the dataframe of wzp6_ee_nunuH_HWW_ecm240: 1
+
+Total size of bkg sample: 32710
+
+Normalised sample size 
+Training: 45794
+Test: 19626
+
+Effective input shape for training 
+X: (45794, 31)
+Y: (45794,)
+
+{'n_estimators': 200, 'learning_rate': 0.3, 'max_depth': 2}
+Feature importances 
+                                importance
+RecoEmiss_costheta                0.578312
+RecoEmiss_pt                      0.146979
+RecoH_e                           0.127317
+Tau_cos                           0.044913
+Tau_DR                            0.030405
+RecoEmiss_p                       0.018736
+RecoEmiss_e                       0.010862
+RecoH_pt                          0.008256
+Visible_mass                      0.004332
+TauLead_mass                      0.003772
+TauSub_p                          0.003245
+TauSub_mass                       0.002813
+RecoH_eta                         0.002112
+TauLead_pt                        0.001996
+TauSub_pt                         0.001975
+RecoH_p                           0.001878
+Tau_DEta                          0.001755
+Tau_DPhi                          0.001680
+RecoH_pz                          0.001633
+TauSub_eta                        0.001369
+RecoEmiss_pz                      0.001335
+TauLead_p                         0.001268
+TauLead_pz                        0.001172
+TauLead_eta                       0.001129
+TauSub_pz                         0.000757
+TauSub_e                          0.000000
+n_TauSub_charged_constituents     0.000000
+n_TauSub_neutral_constituents     0.000000
+n_TauLead_neutral_constituents    0.000000
+n_TauLead_charged_constituents    0.000000
+TauLead_e                         0.000000
+Events of backgrounds: 35015045
+Events of signals: 33206
+Weight of backgrounds: 47373498.00561386
+Weight of signals: 853.0154810999999
+Efficiency of backgrounds: 0.0563920812181626
+Efficiency of signals: 0.015093636363636363
+
+Adjusted size of signal: 32716.430065585086
+
+Weight of wzp6_ee_mumuH_Htautau_ecm240: 5.5562085
+Relative weight of wzp6_ee_mumuH_Htautau_ecm240: 0.006513608044762602
+Requested size of wzp6_ee_mumuH_Htautau_ecm240: 216.29086873438695
+Events after stage2 of wzp6_ee_mumuH_Htautau_ecm240: 485
+Number of events in the dataframe of wzp6_ee_mumuH_Htautau_ecm240: 213
+
+Weight of wzp6_ee_qqH_Htautau_ecm240: 0.180684
+Relative weight of wzp6_ee_qqH_Htautau_ecm240: 0.00021181796110781047
+Requested size of wzp6_ee_qqH_Htautau_ecm240: 7.033627216545955
+Events after stage2 of wzp6_ee_qqH_Htautau_ecm240: 1
+Number of events in the dataframe of wzp6_ee_qqH_Htautau_ecm240: 1
+
+Weight of wzp6_ee_nunuH_Htautau_ecm240: 842.2100459999999
+Relative weight of wzp6_ee_nunuH_Htautau_ecm240: 0.9873326623731777
+Requested size of wzp6_ee_nunuH_Htautau_ecm240: 32785.36838676374
+Events after stage2 of wzp6_ee_nunuH_Htautau_ecm240: 32302
+Number of events in the dataframe of wzp6_ee_nunuH_Htautau_ecm240: 32302
+
+Weight of wzp6_ee_eeH_Htautau_ecm240: 5.0685426
+Relative weight of wzp6_ee_eeH_Htautau_ecm240: 0.00594191162095194
+Requested size of wzp6_ee_eeH_Htautau_ecm240: 197.30711728533012
+Events after stage2 of wzp6_ee_eeH_Htautau_ecm240: 418
+Number of events in the dataframe of wzp6_ee_eeH_Htautau_ecm240: 194
+
+Total size of signal sample: 32710
+Weight of p8_ee_WW_ecm240: 3301294.699190482
+Relative weight of p8_ee_WW_ecm240: 0.06968653019456725
+Requested size of p8_ee_WW_ecm240: 2279.4464026642945
+Events after stage2 of p8_ee_WW_ecm240: 6942950
+Number of events in the dataframe of p8_ee_WW_ecm240: 2279
+
+Weight of p8_ee_ZZ_ecm240: 295412.54415819445
+Relative weight of p8_ee_ZZ_ecm240: 0.006235818687553691
+Requested size of p8_ee_ZZ_ecm240: 203.97362926988126
+Events after stage2 of p8_ee_ZZ_ecm240: 1076056
+Number of events in the dataframe of p8_ee_ZZ_ecm240: 204
+
+Weight of wzp6_ee_tautau_ecm240: 1233101.8951284047
+Relative weight of wzp6_ee_tautau_ecm240: 0.026029361289349573
+Requested size of wzp6_ee_tautau_ecm240: 851.4204077746246
+Events after stage2 of wzp6_ee_tautau_ecm240: 1257209
+Number of events in the dataframe of wzp6_ee_tautau_ecm240: 851
+
+Weight of wzp6_ee_mumu_ecm240: 11731932.475200001
+Relative weight of wzp6_ee_mumu_ecm240: 0.24764758713426105
+Requested size of wzp6_ee_mumu_ecm240: 8100.552575161679
+Events after stage2 of wzp6_ee_mumu_ecm240: 2054255
+Number of events in the dataframe of wzp6_ee_mumu_ecm240: 8102
+
+Weight of wzp6_ee_ee_Mee_30_150_ecm240: 24760513.0476
+Relative weight of wzp6_ee_ee_Mee_30_150_ecm240: 0.5226659227204592
+Requested size of wzp6_ee_ee_Mee_30_150_ecm240: 17096.40233218622
+Events after stage2 of wzp6_ee_ee_Mee_30_150_ecm240: 2760554
+Number of events in the dataframe of wzp6_ee_ee_Mee_30_150_ecm240: 17099
+
+Weight of wzp6_egamma_eZ_Zmumu_ecm240: 576709.4039040001
+Relative weight of wzp6_egamma_eZ_Zmumu_ecm240: 0.012173671529082752
+Requested size of wzp6_egamma_eZ_Zmumu_ecm240: 398.2007957162968
+Events after stage2 of wzp6_egamma_eZ_Zmumu_ecm240: 3090221
+Number of events in the dataframe of wzp6_egamma_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_egamma_eZ_Zee_ecm240: 258197.34311999998
+Relative weight of wzp6_egamma_eZ_Zee_ecm240: 0.005450248640904732
+Requested size of wzp6_egamma_eZ_Zee_ecm240: 178.27763304399377
+Events after stage2 of wzp6_egamma_eZ_Zee_ecm240: 2759580
+Number of events in the dataframe of wzp6_egamma_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gammae_eZ_Zmumu_ecm240: 577063.6695771427
+Relative weight of wzp6_gammae_eZ_Zmumu_ecm240: 0.012181149669563336
+Requested size of wzp6_gammae_eZ_Zmumu_ecm240: 398.4454056914167
+Events after stage2 of wzp6_gammae_eZ_Zmumu_ecm240: 2885978
+Number of events in the dataframe of wzp6_gammae_eZ_Zmumu_ecm240: 398
+
+Weight of wzp6_gammae_eZ_Zee_ecm240: 257954.45097599996
+Relative weight of wzp6_gammae_eZ_Zee_ecm240: 0.0054451214673957955
+Requested size of wzp6_gammae_eZ_Zee_ecm240: 178.1099231985165
+Events after stage2 of wzp6_gammae_eZ_Zee_ecm240: 2756984
+Number of events in the dataframe of wzp6_gammae_eZ_Zee_ecm240: 178
+
+Weight of wzp6_gaga_tautau_60_ecm240: 35265.09963204747
+Relative weight of wzp6_gaga_tautau_60_ecm240: 0.00074440565119064
+Requested size of wzp6_gaga_tautau_60_ecm240: 24.349508850445833
+Events after stage2 of wzp6_gaga_tautau_60_ecm240: 131627
+Number of events in the dataframe of wzp6_gaga_tautau_60_ecm240: 24
+
+Weight of wzp6_gaga_mumu_60_ecm240: 3258516.6717769913
+Relative weight of wzp6_gaga_mumu_60_ecm240: 0.06878353528782802
+Requested size of wzp6_gaga_mumu_60_ecm240: 2249.9094392648544
+Events after stage2 of wzp6_gaga_mumu_60_ecm240: 6589011
+Number of events in the dataframe of wzp6_gaga_mumu_60_ecm240: 2250
+
+Weight of wzp6_gaga_ee_60_ecm240: 1066950.84816
+Relative weight of wzp6_gaga_ee_60_ecm240: 0.02252210398382581
+Requested size of wzp6_gaga_ee_60_ecm240: 736.6980213109422
+Events after stage2 of wzp6_gaga_ee_60_ecm240: 2546179
+Number of events in the dataframe of wzp6_gaga_ee_60_ecm240: 736
+
+Weight of wzp6_ee_nuenueZ_ecm240: 18010.184706
+Relative weight of wzp6_ee_nuenueZ_ecm240: 0.0003801742633373992
+Requested size of wzp6_ee_nuenueZ_ecm240: 12.435500153766329
+Events after stage2 of wzp6_ee_nuenueZ_ecm240: 100235
+Number of events in the dataframe of wzp6_ee_nuenueZ_ecm240: 12
+
+Weight of wzp6_ee_nunuH_HWW_ecm240: 2268.2583
+Relative weight of wzp6_ee_nunuH_HWW_ecm240: 4.788032118150124e-05
+Requested size of wzp6_ee_nunuH_HWW_ecm240: 1.5661653058469054
+Events after stage2 of wzp6_ee_nunuH_HWW_ecm240: 25355
+Number of events in the dataframe of wzp6_ee_nunuH_HWW_ecm240: 1
+
+Total size of bkg sample: 32710
+
+Normalised sample size 
+Training: 45794
+Test: 19626
+
+Effective input shape for training 
+X: (45794, 27)
+Y: (45794,)
+
+{'n_estimators': 200, 'learning_rate': 0.3, 'max_depth': 2}
+Feature importances 
+                    importance
+RecoEmiss_costheta    0.527378
+RecoH_e               0.143137
+RecoEmiss_pt          0.110370
+RecoH_pt              0.076477
+Tau_cos               0.040555
+RecoEmiss_p           0.037151
+Tau_DR                0.020052
+RecoEmiss_e           0.014489
+TauSub_p              0.003625
+TauLead_mass          0.003368
+Visible_mass          0.002785
+TauSub_mass           0.002691
+RecoH_p               0.001864
+TauSub_pt             0.001682
+Tau_DPhi              0.001593
+TauLead_pt            0.001587
+RecoEmiss_pz          0.001585
+Tau_DEta              0.001545
+RecoH_pz              0.001438
+RecoH_eta             0.001336
+TauSub_pz             0.001105
+TauLead_p             0.001099
+TauLead_pz            0.001068
+TauSub_eta            0.001017
+TauLead_eta           0.001001
+TauSub_e              0.000000
+TauLead_e             0.000000
