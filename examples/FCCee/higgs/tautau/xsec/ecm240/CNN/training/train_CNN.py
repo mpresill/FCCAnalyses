@@ -16,6 +16,7 @@ from matplotlib import rc
 import pprint
 from higgs_config import *
 from topVts_config import *
+from training_variables import *
 from model import CNN_Model
 from model import DNN
 import torch
@@ -23,13 +24,13 @@ from torch.utils.data import DataLoader, TensorDataset
 import torch.optim as optim
 import torch.nn as nn
 import data_prepper
-
+import shap
 model_struct = 'DNN'
 
-train = False
+train = True
 
 higgs_path = '/ceph/awiedl/FCCee/HiggsCP/R5-tag/stage2_241025_BDT/'
-topVts_path = '/ceph/xzuo/FCC_ntuples/topVts/training_samples/'
+topVts_path = '/ceph/xzuo/FCC_ntuples/topVts/stage2_R5_for_training_20250302/'
 
 topVts_cat = [#'dilep',
             #'semilep_heavy',
@@ -44,6 +45,7 @@ higgs_subcats = [#'LL',
                  #'LH',
                  'HH'
                  ]
+
 
 def higgs_train_and_test():
     for c in higgs_cats:
@@ -150,18 +152,21 @@ def higgs_train_and_test():
             plt.tight_layout()
 
             # Save the figure
-            fig.savefig(f"/web/awiedl/public_html/ML/CNN/higgs_ROC_{c+s}.pdf")
+            fig.savefig(f"/web/awiedl/public_html/ML/CNN/higgs_ROC_{c+s}_training.pdf")
 
 def topVts_train_and_test():
-    for c in topVts_cat:
+    log_file = '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/training/log_train.txt'
+    for c in cats:
+        with open(log_file, "a") as file:
+            file.write(f"{c}\n")
         if train == True:
-            train_loader = data_prepper.topVts_data_prepper(topVts_path, c, 'train')
+            train_loader, x_test, y_test = data_prepper.topVts_data_prepper_DNN(topVts_path, c, 'train')
             # Definiere das Modell
             if model_struct == 'DNN':
-                model = DNN(num_train_vars[c])
-                print(num_train_vars[c])
+                model = DNN(num_training_vars[c])
+                print(num_training_vars[c])
             else:
-                model = CNN_Model(num_train_vars[c])
+                model = CNN_Model(num_training_vars[c])
 
             # Loss-Funktion und Optimierer
             criterion = nn.BCELoss()
@@ -170,7 +175,7 @@ def topVts_train_and_test():
             #Fit the model
             print("Training model")
             # Trainingsloop
-            num_epochs = 100
+            num_epochs = 10
             for epoch in range(num_epochs):
                 model.train()  # Setzt das Modell in den Trainingsmodus
                 running_loss = 0.0
@@ -199,23 +204,39 @@ def topVts_train_and_test():
 
                 # Ausgabe des Verlusts nach jeder Epoche
                 print(f'Epoche [{epoch+1}/{num_epochs}], Verlust: {running_loss/len(train_loader):.4f}')
+                with open(log_file, "a") as file:
+                    file.write(f"       Epoche [{epoch+1}/{num_epochs}], Verlust: {running_loss/len(train_loader):.4f}\n")
 
             #Saving Model
             model.eval()
-            torch_input = torch.randn(64,1,num_train_vars[c])
+            torch_input = torch.randn(64,1,num_training_vars[c])
             #torch_weights = torch.randn(64)
-            torch.onnx.export(model, torch_input,'/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'.onnx')
-            torch.save(model.state_dict(), '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'.pt')
+            torch.onnx.export(model, torch_input,'/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_10325.onnx')
+            torch.save(model.state_dict(), '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_10325.pt')
 
         print('Testing model')
 
         if train == False:
-            model = DNN(num_train_vars[c])
-            model.load_state_dict(torch.load('/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'.pt'))
+            model = DNN(num_training_vars[c])
+            model.load_state_dict(torch.load('/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_10325.pt'))
             model.eval()
         corr = 0
         false = 0
-        x_test, y_test = data_prepper.topVts_data_prepper(topVts_path, c, 'test')
+
+
+        explainer = shap.DeepExplainer(model, x_test[:1000])  
+        shap_values = explainer.shap_values(x_test[:1000], check_additivity = False) 
+        shap_values = np.squeeze(shap_values)
+        #print(shap_values.shape)
+        #shap_values_explanation = shap.Explanation(values=shap_values, base_values=explainer.expected_value, data=x_test[:100])
+        shap.summary_plot(shap_values, x_test[:1000], feature_names = training_vars[c], max_display = num_training_vars[c])
+        #shap.plots.beeswarm(shap_values_explanation)
+        #shap.plots.beeswarm(shap_values)
+        plt.savefig(f'/web/awiedl/public_html/ML/DNN/impact_{c}_training10325.pdf')
+        plt.close()
+
+        
+
         dataset = TensorDataset(x_test, y_test)
         for data, label in dataset:
             if model_struct == 'CNN':
@@ -228,6 +249,8 @@ def topVts_train_and_test():
             else: 
                 false += 1
         print('Acc:', corr/(corr+false))
+        with open(log_file, "a") as file:
+            file.write(f"       Acc: {corr/(corr+false)}\n")
 
         x_test, y_test = dataset.tensors
         x_test = x_test.unsqueeze(1)
@@ -243,7 +266,7 @@ def topVts_train_and_test():
         ax.set_title('FCC-ee Simulation IDEA Delphes', loc='right', fontsize=20)
 
         # Plot the ROC curve
-        plt.plot(fpr, tpr, lw=1.5, color="k", label=f'Htautau ROC (area = {roc_auc:.3f}) for NuNuHH')
+        plt.plot(fpr, tpr, lw=1.5, color="k", label=f'ROC (area = {roc_auc:.3f})')
 
         # Plot the baseline for random classifier
         plt.plot([0., 1.], [0., 1.], linestyle="--", color="k", label='50/50')
@@ -261,7 +284,14 @@ def topVts_train_and_test():
         plt.tight_layout()
 
         # Save the figure
-        fig.savefig(f"/web/awiedl/public_html/ML/CNN/topVts_ROC_{model_struct+c}.pdf")
+        fig.savefig(f"/web/awiedl/public_html/ML/CNN/topVts_ROC_{model_struct+c}_10325.pdf")
+
+def model_wrapper(model, x):
+    # Konvertiere die Eingaben in einen Tensor
+    x_tensor = torch.tensor(x, dtype=torch.float32)
+    # Setze das Modell in den Evaluierungsmodus und führe die Vorhersage durch
+    with torch.no_grad():
+        return model(x_tensor).numpy()  # Konvertiere die Ausgabe zurück in ein NumPy-Array
 
 if __name__ == '__main__':
     topVts_train_and_test()

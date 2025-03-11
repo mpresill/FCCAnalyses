@@ -1,0 +1,2330 @@
+
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8306
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8478
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 8486
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 8360
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 8445
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8375
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 10
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 10
+       p8_ee_ZZ_ecm365: 2024
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 9
+       wzp6_ee_ssH_ecm365: 9
+       wzp6_ee_qqH_ecm365: 21
+       wzp6_ee_tautauH_ecm365: 159
+       wzp6_ee_mumuH_ecm365: 3939
+       wzp6_ee_eeH_ecm365: 2758
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 59482
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 263070
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 295874
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 558944
+       sig wgt: 0.10641853208908227
+dilep_1tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4113
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4147
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4019
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4002
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3989
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 116
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 103
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 110
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 137
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 124
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 84
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 72
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 94
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 83
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 87
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 453
+       p8_ee_ZZ_ecm365: 319
+       wzp6_ee_bbH_ecm365: 106
+       wzp6_ee_ccH_ecm365: 25
+       wzp6_ee_ssH_ecm365: 18
+       wzp6_ee_qqH_ecm365: 37
+       wzp6_ee_tautauH_ecm365: 951
+       wzp6_ee_mumuH_ecm365: 131
+       wzp6_ee_eeH_ecm365: 175
+       wzp6_ee_nunuH_ecm365: 6
+       All bkg: 27829
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 148966
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 92329
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 374
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 215
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 427
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 217
+       All sig: 242528
+       sig wgt: 0.11474551392004222
+dilep_2tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 99
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 123
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 98
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 97
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 118
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 29
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 31
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 72
+       p8_ee_ZZ_ecm365: 345
+       wzp6_ee_bbH_ecm365: 100
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 15
+       wzp6_ee_qqH_ecm365: 47
+       wzp6_ee_tautauH_ecm365: 1150
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 5
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 2597
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 20907
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 2292
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 106
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 53
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 114
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 68
+       All sig: 23540
+       sig wgt: 0.11032285471537807
+semilep_0tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 412
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 401
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 430
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 22152
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 21993
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 22037
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 22216
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 22172
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 22095
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 14822
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 14782
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 14772
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14780
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 14483
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14702
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 45
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 52
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 46
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 47
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 49
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 55
+       p8_ee_WW_ecm365: 136
+       p8_ee_ZZ_ecm365: 192
+       wzp6_ee_bbH_ecm365: 321
+       wzp6_ee_ccH_ecm365: 33
+       wzp6_ee_ssH_ecm365: 297
+       wzp6_ee_qqH_ecm365: 636
+       wzp6_ee_tautauH_ecm365: 112
+       wzp6_ee_mumuH_ecm365: 99
+       wzp6_ee_eeH_ecm365: 159
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 225768
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 307267
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 364733
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 275608
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 40128
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 285627
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 41491
+       All sig: 1314854
+       sig wgt: 0.1717057559242319
+semilep_0tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 6
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 18
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4791
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4772
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4750
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4642
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4729
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4721
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3155
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 3237
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3201
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3173
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3198
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3190
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 15
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 12
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17
+       p8_ee_WW_ecm365: 7
+       p8_ee_ZZ_ecm365: 47
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 37
+       wzp6_ee_qqH_ecm365: 38
+       wzp6_ee_tautauH_ecm365: 15
+       wzp6_ee_mumuH_ecm365: 27
+       wzp6_ee_eeH_ecm365: 22
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 47979
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 61138
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 73081
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 504
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 123998
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 501
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 128067
+       All sig: 387289
+       sig wgt: 0.12388423115554534
+semilep_1tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 37
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 28
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 27
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 36
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 621
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 619
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 633
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 582
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 614
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 606
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 5052
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 5075
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 5139
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 5147
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 5168
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5214
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 480
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 484
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 467
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 430
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 466
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 432
+       p8_ee_WW_ecm365: 739
+       p8_ee_ZZ_ecm365: 630
+       wzp6_ee_bbH_ecm365: 125
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 363
+       wzp6_ee_qqH_ecm365: 492
+       wzp6_ee_tautauH_ecm365: 291
+       wzp6_ee_mumuH_ecm365: 2
+       wzp6_ee_eeH_ecm365: 4
+       wzp6_ee_nunuH_ecm365: 14
+       All bkg: 40098
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 74639
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 88984
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 71145
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 10739
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 74480
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 10945
+       All sig: 330932
+       sig wgt: 0.12116688624853444
+semilep_1tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 120
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 130
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 131
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 111
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 126
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1182
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1234
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1207
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1203
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1215
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1178
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 59
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 77
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 71
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 82
+       p8_ee_WW_ecm365: 161
+       p8_ee_ZZ_ecm365: 193
+       wzp6_ee_bbH_ecm365: 29
+       wzp6_ee_ccH_ecm365: 4
+       wzp6_ee_ssH_ecm365: 176
+       wzp6_ee_qqH_ecm365: 71
+       wzp6_ee_tautauH_ecm365: 44
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 1
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 9091
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 15127
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 17712
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 359
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 31248
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 396
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 32651
+       All sig: 97493
+       sig wgt: 0.09324772034915327
+dihad_ud_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 260
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 306
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 269
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 276
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 286
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 298
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1074
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1040
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1022
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1039
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1065
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 973
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 17993
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 18019
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18034
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 17997
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 18042
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17907
+       p8_ee_WW_ecm365: 633
+       p8_ee_ZZ_ecm365: 599
+       wzp6_ee_bbH_ecm365: 484
+       wzp6_ee_ccH_ecm365: 82
+       wzp6_ee_ssH_ecm365: 1378
+       wzp6_ee_qqH_ecm365: 2349
+       wzp6_ee_tautauH_ecm365: 3
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 121435
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 7046
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 8302
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 348992
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 55674
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 361801
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 58130
+       All sig: 839945
+       sig wgt: 0.14457494240694332
+dihad_udcs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 104
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 91
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 351
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 342
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 363
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 328
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 357
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 336
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 13905
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13653
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 13777
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13803
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 13678
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14101
+       p8_ee_WW_ecm365: 246
+       p8_ee_ZZ_ecm365: 329
+       wzp6_ee_bbH_ecm365: 294
+       wzp6_ee_ccH_ecm365: 127
+       wzp6_ee_ssH_ecm365: 1485
+       wzp6_ee_qqH_ecm365: 913
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 88921
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 2091
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 2477
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 81552
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 197941
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 85020
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 204135
+       All sig: 573216
+       sig wgt: 0.15512651426338414
+dihad_cs_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 9
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1114
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1112
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1115
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1042
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1105
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1081
+       p8_ee_WW_ecm365: 2
+       p8_ee_ZZ_ecm365: 6
+       wzp6_ee_bbH_ecm365: 11
+       wzp6_ee_ccH_ecm365: 11
+       wzp6_ee_ssH_ecm365: 13
+       wzp6_ee_qqH_ecm365: 5
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 6653
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 28
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 42
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 138
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 25089
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 147
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 25888
+       All sig: 51332
+       sig wgt: 0.1296072625262994
+
+
+
+
+_______________________________________________________________________________________________dilep_0tau
+
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8306
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8478
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 8486
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 8360
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 8445
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8375
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 10
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 10
+       p8_ee_ZZ_ecm365: 2024
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 9
+       wzp6_ee_ssH_ecm365: 9
+       wzp6_ee_qqH_ecm365: 21
+       wzp6_ee_tautauH_ecm365: 159
+       wzp6_ee_mumuH_ecm365: 3939
+       wzp6_ee_eeH_ecm365: 2758
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 59482
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 0.11668719936597118
+dilep_1tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4113
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4147
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4019
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4002
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3989
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 116
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 103
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 110
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 137
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 124
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 84
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 72
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 94
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 83
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 87
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 453
+       p8_ee_ZZ_ecm365: 319
+       wzp6_ee_bbH_ecm365: 106
+       wzp6_ee_ccH_ecm365: 25
+       wzp6_ee_ssH_ecm365: 18
+       wzp6_ee_qqH_ecm365: 37
+       wzp6_ee_tautauH_ecm365: 951
+       wzp6_ee_mumuH_ecm365: 131
+       wzp6_ee_eeH_ecm365: 175
+       wzp6_ee_nunuH_ecm365: 6
+       All bkg: 27829
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 127480
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 76274
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 203754
+       sig wgt: 0.13658136772775012
+dilep_2tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 99
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 123
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 98
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 97
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 118
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 29
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 31
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 72
+       p8_ee_ZZ_ecm365: 345
+       wzp6_ee_bbH_ecm365: 100
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 15
+       wzp6_ee_qqH_ecm365: 47
+       wzp6_ee_tautauH_ecm365: 1150
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 5
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 2597
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 17129
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 17129
+       sig wgt: 0.15161422149570902
+semilep_0tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 412
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 401
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 430
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 22152
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 21993
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 22037
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 22216
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 22172
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 22095
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 14822
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 14782
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 14772
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14780
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 14483
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14702
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 45
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 52
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 46
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 47
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 49
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 55
+       p8_ee_WW_ecm365: 136
+       p8_ee_ZZ_ecm365: 192
+       wzp6_ee_bbH_ecm365: 321
+       wzp6_ee_ccH_ecm365: 33
+       wzp6_ee_ssH_ecm365: 297
+       wzp6_ee_qqH_ecm365: 636
+       wzp6_ee_tautauH_ecm365: 112
+       wzp6_ee_mumuH_ecm365: 99
+       wzp6_ee_eeH_ecm365: 159
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 225768
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 262497
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 312648
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 247261
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2338
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 256465
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2355
+       All sig: 1083564
+       sig wgt: 0.20835686678405704
+semilep_0tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 6
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 18
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4791
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4772
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4750
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4642
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4729
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4721
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3155
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 3237
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3201
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3173
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3198
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3190
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 15
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 12
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17
+       p8_ee_WW_ecm365: 7
+       p8_ee_ZZ_ecm365: 47
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 37
+       wzp6_ee_qqH_ecm365: 38
+       wzp6_ee_tautauH_ecm365: 15
+       wzp6_ee_mumuH_ecm365: 27
+       wzp6_ee_eeH_ecm365: 22
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 47979
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 56096
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 67105
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 95
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 115475
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 93
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 119238
+       All sig: 358102
+       sig wgt: 0.13398137960692763
+semilep_1tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 37
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 28
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 27
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 36
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 621
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 619
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 633
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 582
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 614
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 606
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 5052
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 5075
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 5139
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 5147
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 5168
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5214
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 480
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 484
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 467
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 430
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 466
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 432
+       p8_ee_WW_ecm365: 739
+       p8_ee_ZZ_ecm365: 630
+       wzp6_ee_bbH_ecm365: 125
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 363
+       wzp6_ee_qqH_ecm365: 492
+       wzp6_ee_tautauH_ecm365: 291
+       wzp6_ee_mumuH_ecm365: 2
+       wzp6_ee_eeH_ecm365: 4
+       wzp6_ee_nunuH_ecm365: 14
+       All bkg: 40098
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 60733
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 73141
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 57928
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 537
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 60567
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 547
+       All sig: 253453
+       sig wgt: 0.1582068470288377
+semilep_1tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 120
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 130
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 131
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 111
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 126
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1182
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1234
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1207
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1203
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1215
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1178
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 59
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 77
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 71
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 82
+       p8_ee_WW_ecm365: 161
+       p8_ee_ZZ_ecm365: 193
+       wzp6_ee_bbH_ecm365: 29
+       wzp6_ee_ccH_ecm365: 4
+       wzp6_ee_ssH_ecm365: 176
+       wzp6_ee_qqH_ecm365: 71
+       wzp6_ee_tautauH_ecm365: 44
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 1
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 9091
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 13278
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 15560
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 19
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 27515
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 22
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 28657
+       All sig: 85051
+       sig wgt: 0.10688880789173555
+dihad_ud_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 260
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 306
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 269
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 276
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 286
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 298
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1074
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1040
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1022
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1039
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1065
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 973
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 17993
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 18019
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18034
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 17997
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 18042
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17907
+       p8_ee_WW_ecm365: 633
+       p8_ee_ZZ_ecm365: 599
+       wzp6_ee_bbH_ecm365: 484
+       wzp6_ee_ccH_ecm365: 82
+       wzp6_ee_ssH_ecm365: 1378
+       wzp6_ee_qqH_ecm365: 2349
+       wzp6_ee_tautauH_ecm365: 3
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 121435
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 301398
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2868
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 312270
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2992
+       All sig: 619528
+       sig wgt: 0.19601212535995144
+dihad_udcs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 104
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 91
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 351
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 342
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 363
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 328
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 357
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 336
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 13905
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13653
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 13777
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13803
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 13678
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14101
+       p8_ee_WW_ecm365: 246
+       p8_ee_ZZ_ecm365: 329
+       wzp6_ee_bbH_ecm365: 294
+       wzp6_ee_ccH_ecm365: 127
+       wzp6_ee_ssH_ecm365: 1485
+       wzp6_ee_qqH_ecm365: 913
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 88921
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 70617
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 155303
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 73330
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 160585
+       All sig: 459835
+       sig wgt: 0.1933758848282536
+dihad_cs_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 9
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1114
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1112
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1115
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1042
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1105
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1081
+       p8_ee_WW_ecm365: 2
+       p8_ee_ZZ_ecm365: 6
+       wzp6_ee_bbH_ecm365: 11
+       wzp6_ee_ccH_ecm365: 11
+       wzp6_ee_ssH_ecm365: 13
+       wzp6_ee_qqH_ecm365: 5
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 6653
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 26
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 24121
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 20
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 24900
+       All sig: 49067
+       sig wgt: 0.13559011148022093
+
+_______________________________________________________________________________________________
+
+
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 10758
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 5
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 2
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 0
+       p8_ee_WW_ecm365: 10
+       p8_ee_ZZ_ecm365: 2024
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 9
+       wzp6_ee_ssH_ecm365: 9
+       wzp6_ee_qqH_ecm365: 21
+       wzp6_ee_tautauH_ecm365: 159
+       wzp6_ee_mumuH_ecm365: 3939
+       wzp6_ee_eeH_ecm365: 2758
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 19750
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 0.03874402655388068
+dilep_1tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 5260
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 155
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 102
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 0
+       p8_ee_WW_ecm365: 453
+       p8_ee_ZZ_ecm365: 319
+       wzp6_ee_bbH_ecm365: 106
+       wzp6_ee_ccH_ecm365: 25
+       wzp6_ee_ssH_ecm365: 18
+       wzp6_ee_qqH_ecm365: 37
+       wzp6_ee_tautauH_ecm365: 951
+       wzp6_ee_mumuH_ecm365: 131
+       wzp6_ee_eeH_ecm365: 175
+       wzp6_ee_nunuH_ecm365: 6
+       All bkg: 7738
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 127480
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 76274
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 203754
+       sig wgt: 0.03797716854638437
+dilep_2tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 131
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 6
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 38
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 0
+       p8_ee_WW_ecm365: 72
+       p8_ee_ZZ_ecm365: 345
+       wzp6_ee_bbH_ecm365: 100
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 15
+       wzp6_ee_qqH_ecm365: 47
+       wzp6_ee_tautauH_ecm365: 1150
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 5
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 1927
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 17129
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 17129
+       sig wgt: 0.11249927024344679
+semilep_0tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 521
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 28773
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 18649
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 66
+       p8_ee_WW_ecm365: 136
+       p8_ee_ZZ_ecm365: 192
+       wzp6_ee_bbH_ecm365: 321
+       wzp6_ee_ccH_ecm365: 33
+       wzp6_ee_ssH_ecm365: 297
+       wzp6_ee_qqH_ecm365: 636
+       wzp6_ee_tautauH_ecm365: 112
+       wzp6_ee_mumuH_ecm365: 99
+       wzp6_ee_eeH_ecm365: 159
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 49995
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 262497
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 312648
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 247261
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2338
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 256465
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2355
+       All sig: 1083564
+       sig wgt: 0.04613940662480481
+semilep_0tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 12
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 6266
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 4073
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 14
+       p8_ee_WW_ecm365: 7
+       p8_ee_ZZ_ecm365: 47
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 37
+       wzp6_ee_qqH_ecm365: 38
+       wzp6_ee_tautauH_ecm365: 15
+       wzp6_ee_mumuH_ecm365: 27
+       wzp6_ee_eeH_ecm365: 22
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 10629
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 56096
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 67105
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 95
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 115475
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 93
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 119238
+       All sig: 358102
+       sig wgt: 0.02968148739744542
+semilep_1tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 27
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 750
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 6574
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 563
+       p8_ee_WW_ecm365: 739
+       p8_ee_ZZ_ecm365: 630
+       wzp6_ee_bbH_ecm365: 125
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 363
+       wzp6_ee_qqH_ecm365: 492
+       wzp6_ee_tautauH_ecm365: 291
+       wzp6_ee_mumuH_ecm365: 2
+       wzp6_ee_eeH_ecm365: 4
+       wzp6_ee_nunuH_ecm365: 14
+       All bkg: 10591
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 60733
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 73141
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 57928
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 537
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 60567
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 547
+       All sig: 253453
+       sig wgt: 0.041786840163659536
+semilep_1tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 157
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 1440
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 112
+       p8_ee_WW_ecm365: 161
+       p8_ee_ZZ_ecm365: 193
+       wzp6_ee_bbH_ecm365: 29
+       wzp6_ee_ccH_ecm365: 4
+       wzp6_ee_ssH_ecm365: 176
+       wzp6_ee_qqH_ecm365: 71
+       wzp6_ee_tautauH_ecm365: 44
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 1
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 2392
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 13278
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 15560
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 19
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 27515
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 22
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 28657
+       All sig: 85051
+       sig wgt: 0.028124301889454563
+dihad_ud_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 366
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 1317
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 23097
+       p8_ee_WW_ecm365: 633
+       p8_ee_ZZ_ecm365: 599
+       wzp6_ee_bbH_ecm365: 484
+       wzp6_ee_ccH_ecm365: 82
+       wzp6_ee_ssH_ecm365: 1378
+       wzp6_ee_qqH_ecm365: 2349
+       wzp6_ee_tautauH_ecm365: 3
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 30313
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 301398
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2868
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 312270
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2992
+       All sig: 619528
+       sig wgt: 0.04892918479875002
+dihad_udcs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 110
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 461
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 17885
+       p8_ee_WW_ecm365: 246
+       p8_ee_ZZ_ecm365: 329
+       wzp6_ee_bbH_ecm365: 294
+       wzp6_ee_ccH_ecm365: 127
+       wzp6_ee_ssH_ecm365: 1485
+       wzp6_ee_qqH_ecm365: 913
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 21850
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 70617
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 155303
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 73330
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 160585
+       All sig: 459835
+       sig wgt: 0.04751704415714332
+dihad_cs_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365: 5
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365: 1358
+       p8_ee_WW_ecm365: 2
+       p8_ee_ZZ_ecm365: 6
+       wzp6_ee_bbH_ecm365: 11
+       wzp6_ee_ccH_ecm365: 11
+       wzp6_ee_ssH_ecm365: 13
+       wzp6_ee_qqH_ecm365: 5
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 1414
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 26
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 24121
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 20
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 24900
+       All sig: 49067
+       sig wgt: 0.028817739009925205
+
+
+
+_______________________________________________________________________________________________
+
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8306
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8478
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 8486
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 8360
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 8445
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8375
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 10
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 10
+       p8_ee_ZZ_ecm365: 2024
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 9
+       wzp6_ee_ssH_ecm365: 9
+       wzp6_ee_qqH_ecm365: 21
+       wzp6_ee_tautauH_ecm365: 159
+       wzp6_ee_mumuH_ecm365: 3939
+       wzp6_ee_eeH_ecm365: 2758
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 59482
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 0.11668719936597118
+dilep_1tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4113
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4147
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4019
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4002
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3989
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 116
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 103
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 110
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 137
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 124
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 84
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 72
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 94
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 83
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 87
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 453
+       p8_ee_ZZ_ecm365: 319
+       wzp6_ee_bbH_ecm365: 106
+       wzp6_ee_ccH_ecm365: 25
+       wzp6_ee_ssH_ecm365: 18
+       wzp6_ee_qqH_ecm365: 37
+       wzp6_ee_tautauH_ecm365: 951
+       wzp6_ee_mumuH_ecm365: 131
+       wzp6_ee_eeH_ecm365: 175
+       wzp6_ee_nunuH_ecm365: 6
+       All bkg: 27829
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 127480
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 76274
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 203754
+       sig wgt: 0.13658136772775012
+dilep_2tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 99
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 123
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 98
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 97
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 118
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 29
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 31
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 72
+       p8_ee_ZZ_ecm365: 345
+       wzp6_ee_bbH_ecm365: 100
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 15
+       wzp6_ee_qqH_ecm365: 47
+       wzp6_ee_tautauH_ecm365: 1150
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 5
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 2597
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 17129
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 17129
+       sig wgt: 0.15161422149570902
+semilep_0tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 412
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 401
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 430
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 22152
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 21993
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 22037
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 22216
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 22172
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 22095
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 14822
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 14782
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 14772
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14780
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 14483
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14702
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 45
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 52
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 46
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 47
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 49
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 55
+       p8_ee_WW_ecm365: 136
+       p8_ee_ZZ_ecm365: 192
+       wzp6_ee_bbH_ecm365: 321
+       wzp6_ee_ccH_ecm365: 33
+       wzp6_ee_ssH_ecm365: 297
+       wzp6_ee_qqH_ecm365: 636
+       wzp6_ee_tautauH_ecm365: 112
+       wzp6_ee_mumuH_ecm365: 99
+       wzp6_ee_eeH_ecm365: 159
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 225768
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 262497
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 312648
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 247261
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2338
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 256465
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2355
+       All sig: 1083564
+       sig wgt: 0.20835686678405704
+semilep_0tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 6
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 18
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4791
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4772
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4750
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4642
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4729
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4721
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3155
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 3237
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3201
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3173
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3198
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3190
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 15
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 12
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17
+       p8_ee_WW_ecm365: 7
+       p8_ee_ZZ_ecm365: 47
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 37
+       wzp6_ee_qqH_ecm365: 38
+       wzp6_ee_tautauH_ecm365: 15
+       wzp6_ee_mumuH_ecm365: 27
+       wzp6_ee_eeH_ecm365: 22
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 47979
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 56096
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 67105
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 95
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 115475
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 93
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 119238
+       All sig: 358102
+       sig wgt: 0.13398137960692763
+semilep_1tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 37
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 28
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 27
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 36
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 621
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 619
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 633
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 582
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 614
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 606
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 5052
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 5075
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 5139
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 5147
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 5168
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5214
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 480
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 484
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 467
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 430
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 466
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 432
+       p8_ee_WW_ecm365: 739
+       p8_ee_ZZ_ecm365: 630
+       wzp6_ee_bbH_ecm365: 125
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 363
+       wzp6_ee_qqH_ecm365: 492
+       wzp6_ee_tautauH_ecm365: 291
+       wzp6_ee_mumuH_ecm365: 2
+       wzp6_ee_eeH_ecm365: 4
+       wzp6_ee_nunuH_ecm365: 14
+       All bkg: 40098
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 60733
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 73141
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 57928
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 537
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 60567
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 547
+       All sig: 253453
+       sig wgt: 0.1582068470288377
+semilep_1tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 120
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 130
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 131
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 111
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 126
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1182
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1234
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1207
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1203
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1215
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1178
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 59
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 77
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 71
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 82
+       p8_ee_WW_ecm365: 161
+       p8_ee_ZZ_ecm365: 193
+       wzp6_ee_bbH_ecm365: 29
+       wzp6_ee_ccH_ecm365: 4
+       wzp6_ee_ssH_ecm365: 176
+       wzp6_ee_qqH_ecm365: 71
+       wzp6_ee_tautauH_ecm365: 44
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 1
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 9091
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 13278
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 15560
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 19
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 27515
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 22
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 28657
+       All sig: 85051
+       sig wgt: 0.10688880789173555
+dihad_ud_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 260
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 306
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 269
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 276
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 286
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 298
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1074
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1040
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1022
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1039
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1065
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 973
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 17993
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 18019
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18034
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 17997
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 18042
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17907
+       p8_ee_WW_ecm365: 633
+       p8_ee_ZZ_ecm365: 599
+       wzp6_ee_bbH_ecm365: 484
+       wzp6_ee_ccH_ecm365: 82
+       wzp6_ee_ssH_ecm365: 1378
+       wzp6_ee_qqH_ecm365: 2349
+       wzp6_ee_tautauH_ecm365: 3
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 121435
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 301398
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2868
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 312270
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2992
+       All sig: 619528
+       sig wgt: 0.19601212535995144
+dihad_udcs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 104
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 91
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 351
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 342
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 363
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 328
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 357
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 336
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 13905
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13653
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 13777
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13803
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 13678
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14101
+       p8_ee_WW_ecm365: 246
+       p8_ee_ZZ_ecm365: 329
+       wzp6_ee_bbH_ecm365: 294
+       wzp6_ee_ccH_ecm365: 127
+       wzp6_ee_ssH_ecm365: 1485
+       wzp6_ee_qqH_ecm365: 913
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 88921
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 70617
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 155303
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 73330
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 160585
+       All sig: 459835
+       sig wgt: 0.1933758848282536
+dihad_cs_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 9
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1114
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1112
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1115
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1042
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1105
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1081
+       p8_ee_WW_ecm365: 2
+       p8_ee_ZZ_ecm365: 6
+       wzp6_ee_bbH_ecm365: 11
+       wzp6_ee_ccH_ecm365: 11
+       wzp6_ee_ssH_ecm365: 13
+       wzp6_ee_qqH_ecm365: 5
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 6653
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 26
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 24121
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 20
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 24900
+       All sig: 49067
+       sig wgt: 0.13559011148022093
+
+
+_______________________________________________________________________________________________
+
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 83060
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 84780
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 84860
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 83600
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 84450
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 83750
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 100
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 80
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 70
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 40
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 50
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 40
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 10
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 20
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 20
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 10
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 30
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 100
+       p8_ee_ZZ_ecm365: 20240
+       wzp6_ee_bbH_ecm365: 540
+       wzp6_ee_ccH_ecm365: 90
+       wzp6_ee_ssH_ecm365: 90
+       wzp6_ee_qqH_ecm365: 210
+       wzp6_ee_tautauH_ecm365: 1590
+       wzp6_ee_mumuH_ecm365: 39390
+       wzp6_ee_eeH_ecm365: 27580
+       wzp6_ee_nunuH_ecm365: 20
+       All bkg: 594820
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 1.1668719936597116
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8306
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8478
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 8486
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 8360
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 8445
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8375
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 10
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 10
+       p8_ee_ZZ_ecm365: 2024
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 9
+       wzp6_ee_ssH_ecm365: 9
+       wzp6_ee_qqH_ecm365: 21
+       wzp6_ee_tautauH_ecm365: 159
+       wzp6_ee_mumuH_ecm365: 3939
+       wzp6_ee_eeH_ecm365: 2758
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 59482
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 0.11668719936597118
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 83060
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 84780
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 84860
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 83600
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 84450
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 83750
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 100
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 80
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 70
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 40
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 50
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 40
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 10
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 20
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 20
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 10
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 30
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 100
+       p8_ee_ZZ_ecm365: 20240
+       wzp6_ee_bbH_ecm365: 540
+       wzp6_ee_ccH_ecm365: 90
+       wzp6_ee_ssH_ecm365: 90
+       wzp6_ee_qqH_ecm365: 210
+       wzp6_ee_tautauH_ecm365: 1590
+       wzp6_ee_mumuH_ecm365: 39390
+       wzp6_ee_eeH_ecm365: 27580
+       wzp6_ee_nunuH_ecm365: 20
+       All bkg: 594820
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 1.1668719936597116
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8306
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8478
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 8486
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 8360
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 8445
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8375
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 10
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 100
+       p8_ee_ZZ_ecm365: 20240
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 9
+       wzp6_ee_ssH_ecm365: 9
+       wzp6_ee_qqH_ecm365: 21
+       wzp6_ee_tautauH_ecm365: 159
+       wzp6_ee_mumuH_ecm365: 3939
+       wzp6_ee_eeH_ecm365: 2758
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 77788
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 0.15259849810497572
+dilep_1tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4113
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4147
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4019
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4002
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3989
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 116
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 103
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 110
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 137
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 124
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 84
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 72
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 94
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 83
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 87
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 4530
+       p8_ee_ZZ_ecm365: 3190
+       wzp6_ee_bbH_ecm365: 106
+       wzp6_ee_ccH_ecm365: 25
+       wzp6_ee_ssH_ecm365: 18
+       wzp6_ee_qqH_ecm365: 37
+       wzp6_ee_tautauH_ecm365: 951
+       wzp6_ee_mumuH_ecm365: 131
+       wzp6_ee_eeH_ecm365: 175
+       wzp6_ee_nunuH_ecm365: 6
+       All bkg: 34777
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 127480
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 76274
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 203754
+       sig wgt: 0.17068131177792828
+semilep_0tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 412
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 401
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 430
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 22152
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 21993
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 22037
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 22216
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 22172
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 22095
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 14822
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 14782
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 14772
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14780
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 14483
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14702
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 45
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 52
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 46
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 47
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 49
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 55
+       p8_ee_WW_ecm365: 1360
+       p8_ee_ZZ_ecm365: 1920
+       wzp6_ee_bbH_ecm365: 321
+       wzp6_ee_ccH_ecm365: 33
+       wzp6_ee_ssH_ecm365: 297
+       wzp6_ee_qqH_ecm365: 636
+       wzp6_ee_tautauH_ecm365: 112
+       wzp6_ee_mumuH_ecm365: 99
+       wzp6_ee_eeH_ecm365: 159
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 228720
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 262497
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 312648
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 247261
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2338
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 256465
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2355
+       All sig: 1083564
+       sig wgt: 0.21108120978548567
+semilep_0tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 6
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 18
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4791
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4772
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4750
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4642
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4729
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4721
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3155
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 3237
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3201
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3173
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3198
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3190
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 15
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 12
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17
+       p8_ee_WW_ecm365: 70
+       p8_ee_ZZ_ecm365: 470
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 37
+       wzp6_ee_qqH_ecm365: 38
+       wzp6_ee_tautauH_ecm365: 15
+       wzp6_ee_mumuH_ecm365: 27
+       wzp6_ee_eeH_ecm365: 22
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 48465
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 56096
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 67105
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 95
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 115475
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 93
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 119238
+       All sig: 358102
+       sig wgt: 0.13533853483085825
+semilep_1tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 37
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 28
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 27
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 36
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 621
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 619
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 633
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 582
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 614
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 606
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 5052
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 5075
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 5139
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 5147
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 5168
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5214
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 480
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 484
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 467
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 430
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 466
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 432
+       p8_ee_WW_ecm365: 7390
+       p8_ee_ZZ_ecm365: 6300
+       wzp6_ee_bbH_ecm365: 125
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 363
+       wzp6_ee_qqH_ecm365: 492
+       wzp6_ee_tautauH_ecm365: 291
+       wzp6_ee_mumuH_ecm365: 2
+       wzp6_ee_eeH_ecm365: 4
+       wzp6_ee_nunuH_ecm365: 14
+       All bkg: 52419
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 60733
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 73141
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 57928
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 537
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 60567
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 547
+       All sig: 253453
+       sig wgt: 0.20681941030486914
+dihad_ud_only
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 260
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 306
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 269
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 276
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 286
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 298
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1074
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1040
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1022
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1039
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1065
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 973
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 17993
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 18019
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18034
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 17997
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 18042
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17907
+       p8_ee_WW_ecm365: 6330
+       p8_ee_ZZ_ecm365: 5990
+       wzp6_ee_bbH_ecm365: 484
+       wzp6_ee_ccH_ecm365: 82
+       wzp6_ee_ssH_ecm365: 1378
+       wzp6_ee_qqH_ecm365: 2349
+       wzp6_ee_tautauH_ecm365: 3
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 132523
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 301398
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2868
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 312270
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2992
+       All sig: 619528
+       sig wgt: 0.21390962151831716
+dihad_udcs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 82
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 104
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 91
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 351
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 342
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 363
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 328
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 357
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 336
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 13905
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13653
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 13777
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13803
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 13678
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14101
+       p8_ee_WW_ecm365: 2460
+       p8_ee_ZZ_ecm365: 3290
+       wzp6_ee_bbH_ecm365: 294
+       wzp6_ee_ccH_ecm365: 127
+       wzp6_ee_ssH_ecm365: 1485
+       wzp6_ee_qqH_ecm365: 913
+       wzp6_ee_tautauH_ecm365: 0
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 0
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 94096
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 70617
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 155303
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 73330
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 160585
+       All sig: 459835
+       sig wgt: 0.20462992160231389
+
+       _______________________________________________________________________________________________
+dilep_0tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8306
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8478
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 8486
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 8360
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 8445
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8375
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 10
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 8
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 7
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 100
+       p8_ee_ZZ_ecm365: 20240
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 9
+       wzp6_ee_ssH_ecm365: 9
+       wzp6_ee_qqH_ecm365: 21
+       wzp6_ee_tautauH_ecm365: 159
+       wzp6_ee_mumuH_ecm365: 3939
+       wzp6_ee_eeH_ecm365: 2758
+       wzp6_ee_nunuH_ecm365: 2
+       All bkg: 77788
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 232025
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 277731
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 509756
+       sig wgt: 0.15259849810497572
+dilep_1tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4113
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4147
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4019
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4002
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3989
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 116
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 103
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 110
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 137
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 124
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 84
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 72
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 87
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 94
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 83
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 87
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 4530
+       p8_ee_ZZ_ecm365: 3190
+       wzp6_ee_bbH_ecm365: 106
+       wzp6_ee_ccH_ecm365: 25
+       wzp6_ee_ssH_ecm365: 18
+       wzp6_ee_qqH_ecm365: 37
+       wzp6_ee_tautauH_ecm365: 951
+       wzp6_ee_mumuH_ecm365: 131
+       wzp6_ee_eeH_ecm365: 175
+       wzp6_ee_nunuH_ecm365: 6
+       All bkg: 34777
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 127480
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 76274
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 203754
+       sig wgt: 0.17068131177792828
+dilep_2tau
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 99
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 123
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 98
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 115
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 97
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 118
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 2
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 8
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 29
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 24
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 31
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 0
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 0
+       p8_ee_WW_ecm365: 720
+       p8_ee_ZZ_ecm365: 3450
+       wzp6_ee_bbH_ecm365: 100
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 15
+       wzp6_ee_qqH_ecm365: 47
+       wzp6_ee_tautauH_ecm365: 1150
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 5
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 6350
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 17129
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 0
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 0
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 0
+       All sig: 17129
+       sig wgt: 0.37071632903263474
+semilep_0tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 412
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 401
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 413
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 430
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 22152
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 21993
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 22037
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 22216
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 22172
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 22095
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 14822
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 14782
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 14772
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14780
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 14483
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 14702
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 45
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 52
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 46
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 47
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 49
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 55
+       p8_ee_WW_ecm365: 1360
+       p8_ee_ZZ_ecm365: 1920
+       wzp6_ee_bbH_ecm365: 321
+       wzp6_ee_ccH_ecm365: 33
+       wzp6_ee_ssH_ecm365: 297
+       wzp6_ee_qqH_ecm365: 636
+       wzp6_ee_tautauH_ecm365: 112
+       wzp6_ee_mumuH_ecm365: 99
+       wzp6_ee_eeH_ecm365: 159
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 228720
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 262497
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 312648
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 247261
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 2338
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 256465
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 2355
+       All sig: 1083564
+       sig wgt: 0.21108120978548567
+semilep_0tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 8
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 6
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 14
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 11
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 18
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 4791
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 4772
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 4750
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 4642
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 4729
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4721
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 3155
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 3237
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 3201
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 3173
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 3198
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 3190
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 15
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 18
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 13
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 12
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 17
+       p8_ee_WW_ecm365: 70
+       p8_ee_ZZ_ecm365: 470
+       wzp6_ee_bbH_ecm365: 54
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 37
+       wzp6_ee_qqH_ecm365: 38
+       wzp6_ee_tautauH_ecm365: 15
+       wzp6_ee_mumuH_ecm365: 27
+       wzp6_ee_eeH_ecm365: 22
+       wzp6_ee_nunuH_ecm365: 0
+       All bkg: 48465
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 56096
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 67105
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 95
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 115475
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 93
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 119238
+       All sig: 358102
+       sig wgt: 0.13533853483085825
+semilep_1tau_ud
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 31
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 33
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 37
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 28
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 27
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 36
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 621
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 619
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 633
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 582
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 614
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 606
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 5052
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 5075
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 5139
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 5147
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 5168
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 5214
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 480
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 484
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 467
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 430
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 466
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 432
+       p8_ee_WW_ecm365: 7390
+       p8_ee_ZZ_ecm365: 6300
+       wzp6_ee_bbH_ecm365: 125
+       wzp6_ee_ccH_ecm365: 17
+       wzp6_ee_ssH_ecm365: 363
+       wzp6_ee_qqH_ecm365: 492
+       wzp6_ee_tautauH_ecm365: 291
+       wzp6_ee_mumuH_ecm365: 2
+       wzp6_ee_eeH_ecm365: 4
+       wzp6_ee_nunuH_ecm365: 14
+       All bkg: 52419
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 60733
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 73141
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 57928
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 537
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 60567
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 547
+       All sig: 253453
+       sig wgt: 0.20681941030486914
+semilep_1tau_cs
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1
+       wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 4
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 126
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 120
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 130
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 131
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 111
+       wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 126
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 1182
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 1234
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 1207
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 1203
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 1215
+       wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 1178
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAup_ecm365: 59
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ta_ttAdown_ecm365: 77
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAup_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_tv_ttAdown_ecm365: 75
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZup_ecm365: 71
+       wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_vr_ttZdown_ecm365: 82
+       p8_ee_WW_ecm365: 1610
+       p8_ee_ZZ_ecm365: 1930
+       wzp6_ee_bbH_ecm365: 29
+       wzp6_ee_ccH_ecm365: 4
+       wzp6_ee_ssH_ecm365: 176
+       wzp6_ee_qqH_ecm365: 71
+       wzp6_ee_tautauH_ecm365: 44
+       wzp6_ee_mumuH_ecm365: 0
+       wzp6_ee_eeH_ecm365: 1
+       wzp6_ee_nunuH_ecm365: 1
+       All bkg: 12277
+       wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365: 13278
+       wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365: 15560
+       wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365: 19
+       wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365: 27515
+       wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365: 22
+       wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365: 28657
+       All sig: 85051
+       sig wgt: 0.14434868490670305

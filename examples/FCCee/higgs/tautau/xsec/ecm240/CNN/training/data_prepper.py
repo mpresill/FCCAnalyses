@@ -16,6 +16,7 @@ from higgs_config import *
 from topVts_config import *
 import torch
 from torch.utils.data import DataLoader, TensorDataset
+from training_variables import *
 
 def get_entries(infilepath: str) -> tuple[int, int]:
     '''
@@ -237,3 +238,112 @@ def topVts_data_prepper(path, sig, purpose):
     train_loader = DataLoader(dataset, batch_size=64, shuffle=True)
 
     return train_loader
+
+def topVts_data_prepper_DNN(path, cat, purpose):
+
+    output_path = '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/training/output.txt'
+    vars_list = training_vars[cat]
+    cat_sel = sig_filter[cat]
+    liste = vars_list + [cat_sel]
+    samples = sample_list['training']['sig'] + sample_list['training']['bkg']
+
+    ## load df for sig and bkg
+    df = {}
+    with open(output_path, "a") as file:
+        file.write(f"{cat}\n")
+
+    W_bkg = 0
+    for bkg in sample_list['training']['bkg']:
+        with uproot.open(f'{path}{cat}/{bkg}/chunk0.root') as file:
+            if file.keys() == ['eventsProcessed;1']:
+                print (f"{bkg}:  0")
+                with open(output_path, "a") as file:
+                    file.write(f"       {bkg}: 0\n")
+                samples.remove(bkg)
+                continue
+            events = file['events']
+            temp_df = events.arrays(expressions=vars_list, library="pd")
+            temp_df["label"] = 0
+            if(bkg=='p8_ee_WW_ecm365' or bkg=='p8_ee_ZZ_ecm365'):
+                temp_df["evt_wgt"]=10
+                print('hier')
+            else:    
+                temp_df["evt_wgt"]=1
+            sumW_bkg = temp_df["evt_wgt"].sum()
+        df[bkg] = temp_df
+        print (f"{bkg}:  {sumW_bkg}")
+        with open(output_path, "a") as file:
+            file.write(f"       {bkg}: {sumW_bkg}\n")
+        if sumW_bkg < 2:
+            samples.remove(bkg)
+        W_bkg += sumW_bkg
+        ## balance event weights
+        #df[bkg]["evt_wgt"] = df[bkg]["evt_wgt"] * W_sig / W_bkg
+    with open(output_path, "a") as file:
+        file.write(f"       All bkg: {W_bkg}\n")
+    W_sig = 0
+    for sig in sample_list['training']['sig']:
+
+        with uproot.open(f'{path}{cat}/{sig}/chunk0.root') as file:
+            if file.keys() == ['eventsProcessed;1']:
+                print (f"{sig}:  0")
+                with open(output_path, "a") as file:
+                    file.write(f"       {sig}: 0\n")
+                samples.remove(sig)
+                continue
+            events = file['events']
+            temp_df = events.arrays(expressions=liste, library="pd").query(f'{cat_sel} == 1')
+            temp_df["label"] = 1
+            temp_df["evt_wgt"]=1
+            sumW_sig = temp_df["evt_wgt"].sum()
+        df[sig] = temp_df
+        print (f"{sig}:  {sumW_sig}")
+        with open(output_path, "a") as file:
+            file.write(f"       {sig}: {sumW_sig}\n")
+        if sumW_sig < 2:
+            samples.remove(sig)
+        W_sig += sumW_sig
+    with open(output_path, "a") as file:
+        file.write(f"       All sig: {W_sig}\n")
+        file.write(f"       sig wgt: {W_bkg/W_sig}\n")
+    for sig in sample_list['training']['sig']:
+        with uproot.open(f'{path}{cat}/{sig}/chunk0.root') as file:
+            if file.keys() == ['eventsProcessed;1']:
+                continue
+        df[sig]["evt_wgt"] = df[sig]["evt_wgt"] * W_bkg / W_sig
+
+    ## prepare inputs for training
+    df_tot = pd.DataFrame()
+    df_tot_test = pd.DataFrame()
+    for s in samples:
+        train, test = train_test_split(df[s], train_size=0.7, test_size=0.3)
+        #train['evt_wgt'] = train["evt_wgt"] * W_bkg / W_sig
+        #test['evt_wgt'] = test["evt_wgt"] * W_bkg / W_sig
+        df_tot = pd.concat([df_tot, train])
+        df_tot_test = pd.concat([df_tot_test, test])
+
+
+    y = df_tot["label"]
+    y_test = df_tot_test["label"]
+    x = df_tot[vars_list]
+    x_test = df_tot_test[vars_list]
+    w = df_tot["evt_wgt"]
+
+    y = y.to_numpy()
+    x = x.to_numpy()
+    w = w.to_numpy()
+    y_test = y_test.to_numpy()
+    x_test = x_test.to_numpy()
+
+    x_tensor = torch.tensor(x, dtype=torch.float32)
+    y_tensor = torch.tensor(y, dtype=torch.float32)
+    w_tensor = torch.tensor(w, dtype=torch.float32)
+    x_test_tensor = torch.tensor(x_test, dtype=torch.float32)
+    y_test_tensor = torch.tensor(y_test, dtype=torch.float32)
+
+    if purpose == 'test':
+        return x_tensor, y_tensor, x_test_tensor, y_test_tensor
+    dataset = TensorDataset(x_tensor, y_tensor, w_tensor)
+    train_loader = DataLoader(dataset, batch_size=64, shuffle=True)
+
+    return train_loader, x_test_tensor, y_test_tensor

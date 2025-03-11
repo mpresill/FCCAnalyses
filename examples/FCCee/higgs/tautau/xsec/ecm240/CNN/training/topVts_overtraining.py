@@ -57,7 +57,7 @@ def run(vars, sig):
           path_train = path_train_sig
       df_train[proc] = pd.read_pickle(f"{path_train}/{processes[proc][0]}_train.pkl")
       df_train[proc] = df_train[proc].query(cat_sel[sig])
-#      df_train[proc]["label"] = 0
+      #df_train[proc]["label"] = 0
       df_train[proc] = df_train[proc][vars_list]
       #print(df_train[proc])
       x = df_train[proc].to_numpy()

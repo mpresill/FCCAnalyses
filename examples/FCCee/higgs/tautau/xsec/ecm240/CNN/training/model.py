@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import numpy as np
 
 class CNN_Model(nn.Module):
     def __init__(self, num_params):
@@ -46,21 +47,18 @@ class DNN(nn.Module):
     def __init__(self, num_params):
         super(DNN, self).__init__()
         self.fc1 = nn.Linear(num_params, num_params*2)  
-        self.relu = nn.ReLU() 
-        self.fc2 = nn.Linear(num_params*2, num_params*4) 
-        self.fc3 = nn.Linear(num_params*4, num_params*8)
-        self.fc4 = nn.Linear(num_params*8, num_params*16)
-        self.fc5 = nn.Linear(num_params*16, 1)
+        self.fc2 = nn.Linear(num_params*2, 4) 
+        self.fc3 = nn.Linear(4, 1)
+        #self.fc4 = nn.Linear(num_params*8, num_params*16)
+        #self.fc4 = nn.Linear(num_params, 1)
 
     def forward(self, x):
-        x = self.fc1(x) 
-        x = self.relu(x)  
-        x = self.fc2(x)
-        x = self.relu(x)  
-        x = self.fc3(x)   
-        x = self.relu(x)  
-        x = self.fc4(x) 
-        x = self.relu(x)  
-        x = self.fc5(x)
-        
-        return torch.sigmoid(x)
+
+        x = torch.relu(self.fc1(x)) 
+        x = torch.relu(self.fc2(x))  
+        x = torch.sigmoid(self.fc3(x))    
+        #x = self.fc4(x) 
+        #x = self.relu(x)  
+        #x = self.fc5(x)
+
+        return x

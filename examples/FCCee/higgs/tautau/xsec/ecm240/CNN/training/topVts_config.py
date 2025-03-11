@@ -123,7 +123,7 @@ binnings = {'jet_leadS_phi'      : [np.linspace(-3.5,-3.5,51),  "$\\phi_{lead~s-
             'jet_leadC_eta'      : [np.linspace(-5,5,51),       "$\\eta_{lead~c-tag}$"],
             'jet_leadC_energy'   : [np.linspace(0,180,91),      "$E_{lead~c-tag}$ (GeV)"],
             'jet_leadC_mass'     : [np.linspace(0,50,51),       "$m_{lead~c-tag}$ (GeV)"],
-            'jet_leadC_isC'      : [np.linspace(0.5,1,51),      "c-score(lead c-tag)"],
+            'jet_leadC_isC'      : [np.linspace(0.5,1,51),      "c-score(lead c-tag)"], 
             'jet_leadC_isB'      : [np.linspace(0,1,101),       "b-score(lead c-tag)"],
             'jet_leadC_isS'      : [np.linspace(0,1,101),       "s-score(lead c-tag)"],
             'jet_leadC_flavor'   : [np.linspace(0,6,7),         "true flav(lead c-tag)"],
@@ -139,7 +139,7 @@ binnings = {'jet_leadS_phi'      : [np.linspace(-3.5,-3.5,51),  "$\\phi_{lead~s-
             'electron_1_charge'  : [np.linspace(-2,2,5),        "$q_{lead~e}$"],
             'electron_2_energy'  : [np.linspace(0,180,91),      "$E_{sub~e}$ (GeV)"],
             'electron_2_charge'  : [np.linspace(-2,2,5),        "$q_{sub~e}$"],
-            'CNN'             : [np.linspace(0,1,101),  "CNN output"],
+            'CNN'                : [np.linspace(0,1,101),       "CNN output"],
             }
 
 FCC_label = '\\textbf{FCC-ee Simulation (IDEA Delphes)}'
