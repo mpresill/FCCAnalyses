@@ -64,7 +64,7 @@ sample_list['training']['sig'] = [
         'wzp6_ee_SM_tt_tWbTWs_tallTlight_ecm365',
         'wzp6_ee_SM_tt_tWbTWs_tallTheavy_ecm365',
         'wzp6_ee_SM_tt_tWsTWb_tlightTall_ecm365',
-        'wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365',
+        'wzp6_ee_SM_tt_tWsTWb_theavyTall_ecm365'
         ]
 
 sample_list['training']['bkg'] = [
@@ -99,6 +99,14 @@ sample_list['training']['bkg'] = [
         'p8_ee_WW_ecm365',
         'p8_ee_ZZ_ecm365',
 
+        'p8_ee_Zbb_ecm365'      ,
+        'p8_ee_Zcc_ecm365'      ,
+        'p8_ee_Zss_ecm365'      ,
+        'p8_ee_Zqq_ecm365'      ,
+        'wzp6_ee_tautau_ecm365' ,
+
+        'wzp6_ee_WWZ_Zbb_ecm365',
+
         # ZH samples, no inclusive ones
         'wzp6_ee_bbH_ecm365',
         'wzp6_ee_ccH_ecm365',
@@ -107,10 +115,14 @@ sample_list['training']['bkg'] = [
         'wzp6_ee_tautauH_ecm365',
         'wzp6_ee_mumuH_ecm365',
         'wzp6_ee_eeH_ecm365',
-        'wzp6_ee_nunuH_ecm365',
+        'wzp6_ee_nunuH_ecm365'
         ]
-
+FCC_label = '\\textbf{FCC-ee Simulation (IDEA Delphes)}'
 sample_list['fitting']['sig'] = sample_list['training']['sig']
+ttbar = ['wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365',
+        'wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365',
+        'wzp6_ee_SM_tt_thadTlep_noCKMmix_keepPolInfo_ecm365',
+        'wzp6_ee_SM_tt_thadThad_noCKMmix_keepPolInfo_ecm365',]
 sample_list['fitting']['bkg'] = [
         'wzp6_ee_SM_tt_tlepTlep_noCKMmix_keepPolInfo_ecm365',
         'wzp6_ee_SM_tt_tlepThad_noCKMmix_keepPolInfo_ecm365',
@@ -119,6 +131,15 @@ sample_list['fitting']['bkg'] = [
 
         'p8_ee_WW_ecm365',
         'p8_ee_ZZ_ecm365',
+
+        'p8_ee_Zbb_ecm365'      ,
+        'p8_ee_Zcc_ecm365'      ,
+        'p8_ee_Zss_ecm365'      ,
+        'p8_ee_Zqq_ecm365'      ,
+        'wzp6_ee_tautau_ecm365' ,
+
+        'wzp6_ee_WWZ_Zbb_ecm365',
+
 
         # ZH samples, no inclusive ones
         'wzp6_ee_bbH_ecm365',

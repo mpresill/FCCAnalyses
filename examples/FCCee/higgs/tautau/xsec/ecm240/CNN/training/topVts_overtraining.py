@@ -19,19 +19,15 @@ rc('text', usetex=True)
 
 from topVts_config import *
 model_struct = 'DNN'
-def run(vars, sig):
+def run(vars, cat):
 
     # Load trained model
-    if model_struct == 'CNN':
-      cnn = CNN_Model(num_train_vars[sig])
-      cnn.load_state_dict(torch.load(f"/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_{sig}.pt"))
-    else:
-      cnn = DNN(num_train_vars[sig])
-      cnn.load_state_dict(torch.load(f"/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_{model_struct+sig}.pt"))
+    cnn = DNN(num_training_vars[cat])
+    cnn.load_state_dict(torch.load(f'/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+ model_struct + cat + '_14325.pt'))
     cnn.eval()
     path = '/ceph/xzuo/FCC_ntuples/topVts/training_samples/'
-    vars_list = train_vars[sig]
-    cat_sel = cat_sel_base
+    vars_list = training_vars[sig]
+    cat_sel = sig_filter[cat]
 
     #Load samples
     processes = {"sig_"+sig:    [sig,       "p8_ee_Zbb_ecm91_EvtGen_Bu2TauNuTAUHADNU", "#b2182b", 'WbWs ' + sig],

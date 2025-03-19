@@ -30,7 +30,7 @@ model_struct = 'DNN'
 train = True
 
 higgs_path = '/ceph/awiedl/FCCee/HiggsCP/R5-tag/stage2_241025_BDT/'
-topVts_path = '/ceph/xzuo/FCC_ntuples/topVts/stage2_R5_for_training_20250302/'
+topVts_path = '/ceph/xzuo/FCC_ntuples/topVts/stage2_R5_for_training_20250317/'
 
 topVts_cat = [#'dilep',
             #'semilep_heavy',
@@ -175,7 +175,7 @@ def topVts_train_and_test():
             #Fit the model
             print("Training model")
             # Trainingsloop
-            num_epochs = 10
+            num_epochs = 20
             for epoch in range(num_epochs):
                 model.train()  # Setzt das Modell in den Trainingsmodus
                 running_loss = 0.0
@@ -211,14 +211,14 @@ def topVts_train_and_test():
             model.eval()
             torch_input = torch.randn(64,1,num_training_vars[c])
             #torch_weights = torch.randn(64)
-            torch.onnx.export(model, torch_input,'/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_10325.onnx')
-            torch.save(model.state_dict(), '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_10325.pt')
+            torch.onnx.export(model, torch_input,'/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_17325.onnx')
+            torch.save(model.state_dict(), '/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_17325.pt')
 
         print('Testing model')
 
         if train == False:
             model = DNN(num_training_vars[c])
-            model.load_state_dict(torch.load('/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_10325.pt'))
+            model.load_state_dict(torch.load('/work/awiedl/FCCAnalyses/examples/FCCee/higgs/tautau/xsec/ecm240/CNN/models/topVts_model_'+model_struct+c+'_17325.pt'))
             model.eval()
         corr = 0
         false = 0
@@ -232,7 +232,7 @@ def topVts_train_and_test():
         shap.summary_plot(shap_values, x_test[:1000], feature_names = training_vars[c], max_display = num_training_vars[c])
         #shap.plots.beeswarm(shap_values_explanation)
         #shap.plots.beeswarm(shap_values)
-        plt.savefig(f'/web/awiedl/public_html/ML/DNN/impact_{c}_training10325.pdf')
+        plt.savefig(f'/web/awiedl/public_html/ML/DNN/impact_{c}_training17325.pdf')
         plt.close()
 
         
@@ -284,7 +284,7 @@ def topVts_train_and_test():
         plt.tight_layout()
 
         # Save the figure
-        fig.savefig(f"/web/awiedl/public_html/ML/CNN/topVts_ROC_{model_struct+c}_10325.pdf")
+        fig.savefig(f"/web/awiedl/public_html/ML/DNN/topVts_ROC_{model_struct+c}_17325.pdf")
 
 def model_wrapper(model, x):
     # Konvertiere die Eingaben in einen Tensor

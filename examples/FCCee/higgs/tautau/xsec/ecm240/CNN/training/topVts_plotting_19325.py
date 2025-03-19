@@ -4,25 +4,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import uproot
-import xgboost as xgb
-import joblib
+#import xgboost as xgb
+#import joblib
 from ROOT import *
 import torch
 from sklearn.model_selection import train_test_split
-from torch.utils.data import DataLoader, TensorDataset
-import torch.optim as optim
-import torch.nn as nn
+#from torch.utils.data import DataLoader, TensorDataset
+#import torch.optim as optim
+#import torch.nn as nn
 from model import CNN_Model
 from model import DNN
 from training_variables import *
-import data_prepper
+#import data_prepper
 from event_wgts import *
 
 from matplotlib import rc
 rc('font',**{'family':'serif','serif':['Roman']})
 rc('text', usetex=True)
 
-from topVts_config import *
+#from topVts_config import *
 model_struct = 'DNN'
 def run(vars, cat, doBDT):
     vars_list = training_vars[cat]
@@ -49,6 +49,12 @@ def run(vars, cat, doBDT):
     samples_sig = []
     samples_bkg = []
 
+
+    ##CHANGE0318
+    ##pop tallTlep signal
+    if cat in ['dilep_1tau', 'dilep_2tau']:
+        sample_list['fitting']['sig'].remove('wzp6_ee_SM_tt_tWbTWs_tallTlep_ecm365')
+
     for sig in sample_list['fitting']['sig']:
         with uproot.open(f'{path}{cat}/{sig}/chunk0.root') as file:
             if file.keys() == ['eventsProcessed;1']:
@@ -58,7 +64,12 @@ def run(vars, cat, doBDT):
             events = file['events']
             temp_df = events.arrays(library="pd") #.query(f'{cat_sel} == 1')
             temp_df["label"] = 1
-            temp_df["evt_wgt"] = evt_wgt['sigs'][sig]*2
+            ##CHANGE0318
+            ##double tlepTall weight
+            if cat in ['dilep_1tau', 'dilep_2tau'] and sig == 'wzp6_ee_SM_tt_tWsTWb_tlepTall_ecm365':
+                temp_df["evt_wgt"] = evt_wgt['sigs'][sig]*4
+            else:
+                temp_df["evt_wgt"] = evt_wgt['sigs'][sig]*2
             train_df, temp_df = train_test_split(temp_df, train_size=0.5, test_size=0.5, random_state=12)
         df_sig[sig] = temp_df
         x = df_sig[sig][vars_list].to_numpy()
@@ -104,16 +115,21 @@ def run(vars, cat, doBDT):
     #df_false_sig = {}
     df_merged_bkg = {}
 
-    modes = ['dihad', 'dilep', 'semilep_ud', 'semilep_cs', 'WWZ', 'Z', 'higgs','ZZ', 'WW']
+    ##CHANGE0318
+    ##Rearrange bkg order
+    modes = ['dihad', 'dilep', 'semilep_ud', 'semilep_cs', 'Z', 'WW', 'ZZ', 'higgs', 'WWZ']
     tt = ['dihad', 'dilep', 'semilep_ud', 'semilep_cs']
 
     modes_cut = {
         'dihad': 'Is_dihad_ud_only==1 or Is_dihad_cs_only ==1 or Is_dihad_udcs==1 or Is_dihad_CKMmix==1',
         'dilep': 'Is_dilep_0tau == 1 or Is_dilep_1tau == 1 or Is_dilep_2tau == 1',
-        'semilep_cs': 'Is_semilep_1tau_cs==1 or Is_semilep_1tau_cs==1',
-        'semilep_ud': 'Is_semilep_0tau_ud==1 or Is_semilep_0tau_ud==1'
+        'semilep_cs': 'Is_semilep_0tau_cs==1 or Is_semilep_1tau_cs==1',
+        'semilep_ud': 'Is_semilep_0tau_ud==1 or Is_semilep_1tau_ud==1'
     }
 
+
+    ##CHANGE0318
+    ##bkg colors
     modes_color = {
         'dihad':'gray',
         'dilep':'green',
@@ -178,6 +194,11 @@ def run(vars, cat, doBDT):
             if df_merged_bkg[m][pv].min() < binnings[pv]['min']:
                 binnings[pv]['min'] = df_merged_bkg[m][pv].min()
 
+    ##CHANGE0318
+    ##enforce range for DNN
+    binnings['DNN']['max'] = 1.0
+    binnings['DNN']['min'] = 0.0
+
     h_sig_false = {}
     h_sig_true = {}
     h_bkg = {}
@@ -187,16 +208,24 @@ def run(vars, cat, doBDT):
     eff_sig_true = {}
     bin_edges = {}
 
+    ## CHANGE0318 fix bin number
     for c in cats:
         for pv in plot_vars:
-            h_sig_true[f'{cat}_{c}_{pv}'], bin_edges[pv] = np.histogram(df_true_sig[c][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],50), weights=df_true_sig[c]['evt_wgt'])
-            h_sig_sumw2[f'{cat}_{c}_{pv}'], bin_edges[pv] = np.histogram(df_true_sig[c][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],50), weights=df_true_sig[c]['evt_wgt']**2)        
+            h_sig_true[f'{cat}_{c}_{pv}'], bin_edges[pv] = np.histogram(df_true_sig[c][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],51), weights=df_true_sig[c]['evt_wgt'])
+            ##CHANGE0318 add nonzero placeholder
+            h_sig_true[f'{cat}_{c}_{pv}'] += [1.0e-8]*50
+            h_sig_sumw2[f'{cat}_{c}_{pv}'], bin_edges[pv] = np.histogram(df_true_sig[c][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],51), weights=df_true_sig[c]['evt_wgt']**2)        
     for m in modes:
         for pv in plot_vars:
-            h_bkg[f'{cat}_{m}_{pv}'], bin_edges[pv] = np.histogram(df_merged_bkg[m][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],50), weights=df_merged_bkg[m]['evt_wgt'])
-            h_bkg_sumw2[f'{cat}_{m}_{pv}'], bin_edges[pv] = np.histogram(df_merged_bkg[m][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],50), weights=df_merged_bkg[m]['evt_wgt']**2)
+            h_bkg[f'{cat}_{m}_{pv}'], bin_edges[pv] = np.histogram(df_merged_bkg[m][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],51), weights=df_merged_bkg[m]['evt_wgt'])
+            ##CHANGE0318 add nonzero placeholder
+            h_bkg[f'{cat}_{m}_{pv}'] += [1.0e-8]*50
+            h_bkg_sumw2[f'{cat}_{m}_{pv}'], bin_edges[pv] = np.histogram(df_merged_bkg[m][pv], bins=np.linspace(binnings[pv]['min'],binnings[pv]['max'],51), weights=df_merged_bkg[m]['evt_wgt']**2)
 
     fig_dir = f'/web/awiedl/public_html/ML/DNN/topVts/yields_7325_R5_CNN_{cat}_17325_50bin_plot'
+    ##CHANGE0318, output dir
+    fig_dir = f'/web/xzuo/public_html/Vts_plots/20250319/{cat}'
+
     if not os.path.exists(fig_dir):
         os.makedirs(fig_dir)
     '''for pv in plot_vars:
@@ -231,13 +260,14 @@ def run(vars, cat, doBDT):
         fig, ax = plt.subplots(figsize=(8,8))
         bkg_plot = h_bkg[f'{cat}_ZZ_{pv}'] + h_bkg[f'{cat}_Z_{pv}'] + h_bkg[f'{cat}_WWZ_{pv}'] + h_bkg[f'{cat}_WW_{pv}'] + h_bkg[f'{cat}_dihad_{pv}'] + h_bkg[f'{cat}_dilep_{pv}'] + h_bkg[f'{cat}_semilep_ud_{pv}'] + h_bkg[f'{cat}_semilep_cs_{pv}'] + h_bkg[f'{cat}_higgs_{pv}']
 
-
-        sig_plot = [0.00001]*49 + h_sig_true[f'{cat}_dilep_0tau_{pv}'] + h_sig_true[f'{cat}_dilep_1tau_{pv}'] + h_sig_true[f'{cat}_dilep_2tau_{pv}'] + h_sig_true[f'{cat}_semilep_0tau_ud_{pv}'] + h_sig_true[f'{cat}_semilep_1tau_ud_{pv}'] + h_sig_true[f'{cat}_semilep_0tau_cs_{pv}'] + h_sig_true[f'{cat}_semilep_1tau_cs_{pv}'] + h_sig_true[f'{cat}_dihad_ud_only_{pv}'] + h_sig_true[f'{cat}_dihad_cs_only_{pv}'] + h_sig_true[f'{cat}_dihad_udcs_{pv}'] - h_sig_true[f'{cat}_{cat}_{pv}']
+        ##CHANGE0318 fix Nbins 49 to 50
+        sig_plot = [1e-8]*50 + h_sig_true[f'{cat}_dilep_0tau_{pv}'] + h_sig_true[f'{cat}_dilep_1tau_{pv}'] + h_sig_true[f'{cat}_dilep_2tau_{pv}'] + h_sig_true[f'{cat}_semilep_0tau_ud_{pv}'] + h_sig_true[f'{cat}_semilep_1tau_ud_{pv}'] + h_sig_true[f'{cat}_semilep_0tau_cs_{pv}'] + h_sig_true[f'{cat}_semilep_1tau_cs_{pv}'] + h_sig_true[f'{cat}_dihad_ud_only_{pv}'] + h_sig_true[f'{cat}_dihad_cs_only_{pv}'] + h_sig_true[f'{cat}_dihad_udcs_{pv}'] - h_sig_true[f'{cat}_{cat}_{pv}']
 
         for m in modes:
             plot_label = f'WbWb {m}'
             if m in ["WW", "ZZ", "Z", "WWZ"]: plot_label = m
-            elif m in "higgs": plot_label = 'ZH+VBF'
+            ##CHANGE0318, Higgs label
+            elif m in "higgs": plot_label = 'Higgs(ZH+VBF)'
             plt.stairs(bkg_plot, edges=bin_edges[pv], color = modes_color[m], fill=True,  alpha=0.8, label=plot_label) #
             bkg_plot = bkg_plot - h_bkg[f'{cat}_{m}_{pv}']
 
@@ -256,7 +286,8 @@ def run(vars, cat, doBDT):
         ymin,ymax = plt.ylim()
         if 'energy' in pv or 'mass' in pv or 'dR' in pv or 'DNN' in pv:
             plt.yscale('log')
-            plt.ylim(1e-3,50*ymax)
+            ##CHANGE0318, y range
+            plt.ylim(1e-2,50*ymax)
         else:
             plt.ylim(0,1.4*ymax)
 
@@ -278,14 +309,16 @@ def run(vars, cat, doBDT):
         for m in modes:
             save_name = f"bkg_{cat}_{m}_{pv}"
             root_hists[save_name] = TH1F(save_name,save_name, 50, binnings[pv]['min'], binnings[pv]['max'])
-            for ibin in range(49):
+            ##CHANGE0318 fix bin number
+            for ibin in range(50):
                 root_hists[save_name].SetBinContent(ibin, h_bkg[f'{cat}_{m}_{pv}'][ibin] )
             root_hists[save_name].Write()
         sig_root.cd()
         for c in cats:
             save_name = f"true_sig_{cat}_{c}_{pv}"
             root_hists[save_name] = TH1F(save_name,save_name, 50, binnings[pv]['min'], binnings[pv]['max'])
-            for ibin in range(49):
+            ## CHANGE0318 fix bin number
+            for ibin in range(50):
                 root_hists[save_name].SetBinContent(ibin, h_sig_true[f'{cat}_{c}_{pv}'][ibin] )
             root_hists[save_name].Write()
     bkg_root.Close()
@@ -300,7 +333,8 @@ def run(vars, cat, doBDT):
         for m in modes:
             save_name = f"bkg_{cat}_{m}_{pv}"
             root_hists[save_name] = TH1F(save_name,save_name, 50, binnings[pv]['min'], binnings[pv]['max'])
-            for ibin in range(49):
+            ## CHANGE0318 fix bin number
+            for ibin in range(50):
                 root_hists[save_name].SetBinContent(ibin, h_bkg[f'{cat}_{m}_{pv}'][ibin] )
                 root_hists[save_name].SetBinError(ibin, np.sqrt(h_bkg_sumw2[f'{cat}_{m}_{pv}'][ibin] ))
             root_hists[save_name].SetEntries(N[m])
@@ -309,7 +343,8 @@ def run(vars, cat, doBDT):
         for c in cats:
             save_name = f"true_sig_{cat}_{c}_{pv}"
             root_hists[save_name] = TH1F(save_name,save_name, 50, binnings[pv]['min'], binnings[pv]['max'])
-            for ibin in range(49):
+            ## CHANGE0318 fix bin number
+            for ibin in range(50):
                 root_hists[save_name].SetBinContent(ibin, h_sig_true[f'{cat}_{c}_{pv}'][ibin] )
                 root_hists[save_name].SetBinError(ibin, np.sqrt(h_sig_sumw2[f'{cat}_{c}_{pv}'][ibin] ))
             root_hists[save_name].SetEntries(N[c])
@@ -322,7 +357,7 @@ def main():
     parser = argparse.ArgumentParser(description='Plot xgb model for Bc -> tau nu vs. Z -> qq, cc, bb')
     parser.add_argument("--Vars", choices=["normal","vtx"],required=False,help="Event-level vars (normal) or added vertex vars (vtx)",default="vtx")
     parser.add_argument("--Channel", choices=['dilep_0tau', 'dilep_1tau', 'dilep_2tau', 'semilep_0tau_ud', 'semilep_0tau_cs','semilep_1tau_ud', 'semilep_1tau_cs',
-        'dihad_ud_only', 'dihad_udcs', 'dihad_cs_only'],required=False,help="Which event category to train",default='dihad_udcs')
+        'dihad_ud_only', 'dihad_udcs', 'dihad_cs_only'],required=False,help="Which event category to train",default='dilep_0tau')
     parser.add_argument("--doBDT", choices=[True, False],required=False,help="Whether to use BDT",default=True)
     args = parser.parse_args()
 
